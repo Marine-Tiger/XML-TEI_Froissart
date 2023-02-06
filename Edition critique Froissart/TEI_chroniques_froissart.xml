@@ -1,0 +1,3501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="RNG_Chroniques_froissart.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="RNG_Chroniques_froissart.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI SYSTEM "DTD_chroniques_froissart.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chroniques</title>
+                <author>Jehan Froissart</author>
+                
+            </titleStmt>
+            <publicationStmt>
+                <p> Edition encodée par Marine Tiger, d'après <ref
+                        target="https://www.dhi.ac.uk/onlinefroissart">Online Froissart</ref>.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <head>Manuscrits médiévaux</head>
+                        <witness xml:id="A">
+                            <msDesc>
+                                <msIdentifier>
+                                    <placeName>
+                                        <country>Etats-Unis</country>
+                                        <settlement>Austin</settlement>
+                                    </placeName>
+                                    <institution>Université du Texas, Centre Harry Ransom</institution>
+                                    <repository>Pre-1700 Manuscripts</repository>
+                                    <idno>ms. 48</idno>
+                                </msIdentifier>
+                                <msContents>
+                                    <textLang>Moyen français</textLang>
+                                  </msContents>
+                                <physDesc>
+                                    <objectDesc form="manuscrit">
+                                     <supportDesc>
+                                      <support>Parchment</support>
+                                      <extent>162 folios
+                                      <dimensions unit="mm">
+                                        <height>359</height>
+                                        <width>286</width>
+                                       </dimensions>
+                                      </extent>
+                                     </supportDesc>
+                                     <layoutDesc>
+                                      <layout columns="2">En deux colonnes</layout>
+                                     </layoutDesc>
+                                    </objectDesc>
+                                    <decoDesc>
+                                        <p>Ce manuscrit contient une grande miniature d'une scène de bataille, 
+                                        deux petites miniatures (une représentant un chevalier à cheval et l'autre représentant une procession funéraire)
+                                        et des lettres en capitales écrites en or sur fonds colorés.</p>
+                                    </decoDesc>
+                                   </physDesc>
+                                   <history>
+                                    <origin>
+                                      <origDate>Entre 1425 et 1475</origDate>
+                                    </origin>
+                                  </history>
+                            </msDesc>
+                        </witness>
+                        <witness xml:id="Be"> 
+                            <msDesc>
+                                <msIdentifier facs="https://memoirevive.besancon.fr/ark:/48565/6trchjnmkl20">
+                                    <placeName>
+                                        <country>France</country>
+                                        <settlement>Besançon</settlement>
+                                    </placeName>
+                                    <institution>Bibliothèque municipale</institution>
+                                    <repository>Manuscrits</repository>
+                                    <idno>ms. 864</idno>
+                                </msIdentifier>
+                                <msContents>
+                                    <textLang>Moyen français</textLang>
+                                  </msContents>
+                                <physDesc>
+                                    <objectDesc form="manuscrit">
+                                        <supportDesc>
+                                        <support>Parchemin</support>
+                                        <extent>830 folios
+                                        <dimensions unit="mm">
+                                            <height>360</height>
+                                            <width>270</width>
+                                        </dimensions>
+                                        </extent>
+                                        </supportDesc>
+                                        <layoutDesc>
+                                            <layout columns="2">En deux colonnes</layout>
+                                        </layoutDesc>
+                                    </objectDesc>
+                                    <decoDesc>
+                                          <p>Ce manuscrit contient 45 miniatures, des lettrines et des vignettes</p>
+                                    </decoDesc>
+                                   </physDesc>
+                                   <history>
+                                    <origin>
+                                      <origDate>Entre 1410 et 1420</origDate>
+                                    </origin>
+                                  </history>
+                            </msDesc>
+                        </witness>
+                        <witness xml:id="Br"> 
+                            <msDesc>
+                                <msIdentifier>
+                                    <placeName>
+                                        <country>Belgique</country>
+                                        <settlement>Bruxelles</settlement>
+                                    </placeName>
+                                    <institution>Bibliothèque royale de Belgique</institution>
+                                    <repository>Manuscrits</repository>
+                                    <idno>ms. II 88</idno>
+                                </msIdentifier>
+                                <msContents>
+                                    <textLang>Moyen français</textLang>
+                                  </msContents>
+                                <physDesc>
+                                    <objectDesc form="manuscrit">
+                                     <supportDesc>
+                                      <support>Parchemin</support>
+                                      <extent>23 folios
+                                      <dimensions unit="mm">
+                                        <height>385</height>
+                                        <width>285</width>
+                                       </dimensions>
+                                      </extent>
+                                     </supportDesc>
+                                    </objectDesc>
+                                   </physDesc>
+                                   <history>
+                                    <origin>
+                                      <origDate>Entre 1400 et 1450</origDate>
+                                    </origin>
+                                  </history>
+                            </msDesc>
+                    </witness>
+                    <witness xml:id="C">
+                        <msDesc>
+                            <msIdentifier>
+                                <placeName>
+                                    <country>Etats-Unis</country>
+                                    <settlement>Chicago</settlement>
+                                </placeName>
+                                <institution>Library of Chicagp</institution>
+                                <repository>Special collections, manuscripts</repository>
+                                <idno>folio Case MS 37.1</idno>
+                            </msIdentifier>
+                            <msContents>
+                                <textLang>Moyen français</textLang>
+                              </msContents>
+                            <physDesc>
+                                <objectDesc form="manuscrit">
+                                 <supportDesc>
+                                  <support>Parchemin</support>
+                                  <extent>282 pages
+                                  <dimensions unit="mm">
+                                    <height>370</height>
+                                    <width>265</width>
+                                   </dimensions>
+                                  </extent>
+                                 </supportDesc>
+                                 <layoutDesc>
+                                    <layout columns="2">En deux colonnes</layout>
+                                </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <p>Ecrit par trois mains du 15eme siècle</p>
+                                   </handDesc>
+                               </physDesc>
+                               <history>
+                                <origin>
+                                  <origDate>Entre 1425 et 1450</origDate>
+                                </origin>
+                              </history>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <!-- liste des noms et lieux rencontrés dans le texte -->
+            <particDesc>
+                <listPerson>
+                    <person xml:id="Anglais">
+                        <persName xml:lang="frm">Anglois</persName>
+                        <persName xml:lang="frm">Angloys</persName>
+                        <persName xml:lang="frm">Englés</persName>
+                        <persName xml:lang="frm">Engléz</persName>
+                    </person>
+                    <person xml:id="Bacon">
+                        <persName>Bacon</persName>
+                        <note type="information">Nom d'un soldat à pied, brigand</note>
+                    </person>
+                    <person xml:id="Croquard">
+                        <persName xml:lang="frm">Crokac</persName>
+                        <persName xml:lang="frm">Croquart</persName>
+                        <persName xml:lang="frm">Crokart</persName>
+                        <persName xml:lang="frm">Crokars</persName>
+                        <note type="information">Célèbre aventurier allemand</note>
+                    </person>
+                    <person xml:id="Ecossais">
+                        <persName xml:lang="frm">Escocs</persName>
+                        <persName xml:lang="frm">Ecoçois</persName>
+                    </person>
+                    <person xml:id="Français">
+                        <persName xml:lang="frm">Franchois</persName>
+                        <persName xml:lang="frm">François</persName>
+                        <persName xml:lang="frm">Françoys</persName>
+                    </person>
+                    <person xml:id="J-ark">
+                        <persName type="information">
+                            <forename>Jean</forename>
+                            <addName>IV</addName>
+                            <nameLink>d'</nameLink>
+                            <surname>Arkel</surname>
+                        </persName>
+                        <persName type="in-text">
+                            <app>
+                                <lem wit="#A #Be #Br"><roleName type="nobility">seigneur</roleName></lem>
+                                <rdg wit="#C" corresp="#orth"><roleName type="nobility">signeur</roleName></rdg>
+                            </app>
+                            <app>
+                                <lem wit="#Br">d'Arcles</lem>
+                                <rdgGrp corresp="#orth">
+                                    <rdg wit="#A">de Ecles</rdg>
+                                    <rdg wit="#Be">d'Eccles</rdg>
+                                    <rdg wit="#C">d'Ercle</rdg>
+                                </rdgGrp>
+                            </app>
+                        </persName>
+                    </person>
+                    <person xml:id="Roi-ec">
+                        <persName type="information">
+                            <forename>David</forename>
+                            <addName>II</addName>
+                        </persName>
+                    </person>
+                    <person xml:id="Roi-fr">
+                        <persName type="information">
+                            <forename>Philippe</forename>
+                            <addName>VI</addName>
+                            <nameLink>de</nameLink>
+                            <surname>Valois</surname>
+                        </persName>
+                        <persName type="in-text">
+                            <app>
+                                <lem wit="#A #Br #Be"><roleName>roy</roleName> de France</lem>
+                                <rdg wit="#C" corresp="#orth"><roleName>roys</roleName> de France</rdg>
+                            </app>
+                        </persName>
+                    </person>
+                    <person xml:id="Roi-eng">
+                        <persName type="information">
+                            <forename>Edward</forename>
+                            <addName>III</addName>
+                        </persName>
+                        <persName type="in-text">
+                            <app>
+                                <lem wit="#A #Br #Be"><roleName type="nobility">roy</roleName> d'Angleterre</lem>
+                                <rdg wit="#C" corresp="#orth"><roleName type="nobility">roys</roleName> d'Engleterre</rdg>
+                            </app>
+                        </persName>
+                    </person>
+                    <person xml:id="William">
+                        <persName xml:lang="frm">Guillaume Douglas</persName>
+                        <persName xml:lang="frm">Guillaume de Douglas</persName>
+                        <note type="information">Aristocrate écossais et premier <roleName type="nobility">Comte</roleName> Douglas. 
+                            Fils d'<persName>Archibald Douglas</persName> <roleName type="honorific">Gardien</roleName> de l'Ecosse (régent).
+                        </note>
+                    </person>
+                </listPerson>
+            </particDesc>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="Angleterre">
+                        <placeName xml:lang="fr">Angleterre</placeName>
+                        <placeName xml:lang="frm">Engleterre</placeName>
+                    </place>
+                    <place xml:id="Arkel">
+                        <placeName xml:lang="frm">Arcles</placeName>
+                        <placeName xml:lang="frm">Ecles</placeName>
+                        <placeName xml:lang="frm">Eccles</placeName>
+                        <placeName xml:lang="frm">Ercle</placeName>
+                        <note type="information">Terres d'Arkel, fief des comtes de
+                            Hollande</note>
+                    </place>
+                    <place xml:id="Bretagne">
+                        <placeName xml:lang="frm">Bretaigne</placeName>
+                        <placeName xml:lang="fr">Bretagne</placeName>
+                    </place>
+                    <place xml:id="Comborn">
+                        <placeName xml:lang="frm">Comborne</placeName>
+                        <placeName xml:lang="frm">Combourne</placeName>
+                        <placeName xml:lang="frm">Conbourne</placeName>
+                        <note type="information">Château situé à Orgnac-sur-Vézère
+                            dans le département de la Corrèze</note>
+                    </place>
+                    <place xml:id="Donzenac">
+                        <placeName xml:lang="frm">Donsenach</placeName>
+                        <placeName xml:lang="frm">Donsenak</placeName>
+                        <placeName xml:lang="frm">Douzenok</placeName>
+                        <note type="information">Commune située dans le département
+                            de la Corrèze</note>
+                    </place>
+                    <place xml:id="Ecosse">
+                        <placeName xml:lang="frm">Escoce</placeName>
+                    </place>
+                    <place xml:id="France">
+                        <placeName xml:lang="fr">France</placeName>
+                        <placeName xml:lang="frm">Franche</placeName>
+                    </place>
+                    <place xml:id="Gascogne">
+                        <placeName xml:lang="frm">Gascongne</placeName>
+                        <placeName xml:lang="frm">Gascoingne</placeName>
+                    </place>
+                    <place xml:id="Jedforest">
+                        <placeName xml:lang="frm">Gedours</placeName>
+                        <note type="information">Forêt en Ecosse près de la ville de Jedburgh</note>
+                    </place>
+                    <place xml:id="Hollande">
+                        <placeName xml:lang="fr">Hollande</placeName>
+                        <placeName xml:lang="fr">Hollandes</placeName>
+                        <note type="information">Ancienne province des Pays-Bas</note>
+                    </place>
+                    <place xml:id="Languedoc">
+                        <placeName xml:lang="fr">Languedoc</placeName>
+                        <placeName xml:lang="frm">Langhedok</placeName>
+                    </place>
+                    <place xml:id="Limousin">
+                        <placeName xml:lang="frm">Limosin</placeName>
+                        <placeName xml:lang="frm">Limozin</placeName>
+                    </place>
+                    <place xml:id="Poitou">
+                        <placeName xml:lang="frm">Poito</placeName>
+                        <placeName xml:lang="fr">Poitou</placeName>
+                        <note type="information">Ancienne province du royaume de
+                            France.</note>
+                    </place>
+                    <place xml:id="Saintonge">
+                        <placeName xml:lang="fr">Saintonge</placeName>
+                        <placeName xml:lang="frm">Xanctonge</placeName>
+                        <placeName xml:lang="frm">Xantonge</placeName>
+                        <placeName xml:lang="frm">Xanttonge</placeName>
+                        <note type="information">Ancienne province réunie au royaume
+                            de France en 1375.</note>
+                    </place>
+                </listPlace>
+            </settingDesc>
+        </profileDesc>
+        
+        <encodingDesc>
+            <variantEncoding method="parallel-segmentation" location="internal"></variantEncoding>
+            <editorialDecl>
+                <p>Le choix a été fait de reconstruire le texte initial en utilisant les quatre manuscrits, et non de choisir un manuscrit témoin.</p>
+            </editorialDecl>
+            <p> Liste des différentes variations rencontrées :
+                <list>
+                    <item xml:id="add">mot ou phrase ajouté</item>
+                    <item xml:id="diff">mot différent</item>
+                    <item xml:id="omission">mot ou phrase manquante</item>
+                    <item xml:id="orth">variation orthographique</item>
+                    <item xml:id="punct">ponctuation différente</item>
+                    <item xml:id="transp">transposition: ordre des mots, phrases voire paragraphes est changé</item>
+                </list>
+            </p>
+        </encodingDesc>
+        
+    </teiHeader>
+    <text>
+        <body>
+            <head>
+            Comment <persName ref="#Bacon">Bacon</persName> le 
+                <app>
+                    <lem wit="#Be #Br">Brigant</lem>
+                    <rdg wit="#A" corresp="#orth">brigant</rdg>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app> 
+                gaingna le fort chastel de
+                <placeName ref="#Comborn">
+                    <app>
+                        <lem wit="#Br">Comborne</lem>
+                        <rdg wit="#A #Be" corresp="#orth">Combourne</rdg>
+                        <rdg wit="#C" corresp="#omission"/>
+                    </app>
+                </placeName>
+                <app>
+                    <lem wit="#Be">d'un appellé</lem>
+                    <rdg wit="#A #Br" corresp="#diff">et de</rdg>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                <persName ref="#Croquard">
+                    <app>
+                        <lem wit="#Be #Br">Croquart</lem>
+                        <rdg wit="#A" corresp="#orth">Crokac</rdg>
+                        <rdg wit="#C" corresp="#omission"/>
+                    </app>
+                </persName>
+                et 
+                <app>
+                    <lem wit="#Be">de</lem>
+                    <rdg wit="#A #Br" corresp="#diff">aussi</rdg>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Br">plusieurs</lem>
+                    <rdg wit="#Be" corresp="#orth">pluseurs</rdg>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app> autres <app>
+                    <lem wit="#A #Be">brigans</lem>
+                    <rdg wit="#Br #C" corresp="#omission"/>
+                </app> qui <app>
+                    <lem wit="#A #Be #C" />
+                    <rdg wit="#Br" corresp="#add">lors</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be">couroient</lem>
+                    <rdg wit="#Br" corresp="#orth">couroyent</rdg>
+                    <rdg wit="#C"  corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C" />
+                    <rdg wit="#A" corresp="#add">lors</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">parmi</lem>
+                    <rdg wit="#A #Br" corresp="#orth">parmy</rdg>
+                    <rdg wit="#C"  corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be">le royaume de</lem>
+                    <rdg wit="#Br #C"  corresp="#omission"/>
+                </app>
+                <placeName ref="#France">France</placeName>.
+            </head>
+
+            <p corresp="SHF-chapter" n="1-315">
+                <app>
+                    <lem wit="#A #Be #Br"><milestone unit="section"></milestone><lb/></lem>
+                    <rdg wit="#C"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">Toute</lem>
+                    <rdg wit="#C" corresp="#orth">Toutte</rdg>
+                </app>
+                celle
+                <app>
+                    <lem wit="#A #Be #Br">annee</lem>
+                    <rdg wit="#C" corresp="#orth">anee</rdg>
+                </app>
+                que celle
+                <app>
+                    <lem wit="#Be #Br">trieve
+                        <note type="information">La trêve mentionnée dans ce texte est la trêve de Malestroit signée 
+                            le <date>19 janvier 1343</date>entre le <persName ref="#Roi-fr">roi de France Philippe VI</persName>
+                            et le <persName ref="#Roi-eng">roi d'Angleterre Edouard III </persName> 
+                            afin d'arrêter la guerre de Succession de Bretagne.</note>
+                    </lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">treve</rdg>
+                        <rdg wit="#C">trieuwe</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">fut</lem>
+                    <rdg wit="#C" corresp="#orth">fu</rdg>
+                </app>
+                accordee que vous
+                <app>
+                    <lem wit="#A #Be #Br">avéz</lem>
+                    <rdg wit="#C" corresp="#orth">avés </rdg>
+                </app>
+                <app>
+                    <lem wit="#C">oy</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">ouy</rdg>
+                </app>
+                , se
+                <app>
+                    <lem wit="#A #Be #Br">tindrent</lem>
+                    <rdg wit="#C" corresp="#orth">tinrent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">les</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">deux</lem>
+                    <rdg wit="#C" corresp="#orth">doy</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">roys</lem>
+                    <rdg wit="#C" corresp="#orth">roy</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">en</lem>
+                    <rdg wit="#A #Br #C" corresp="#diff">a</rdg>
+                </app> 
+                paix 
+                <app>
+                    <lem wit="#Be #Br #C" />
+                    <rdg wit="#A" corresp="#add">contre</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">l'</lem>
+                    <rdg wit="#C" corresp="#diff">li</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">un</lem>
+                    <rdg wit="#C" corresp="#orth">uns</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">contre</lem>
+                    <rdg wit="#A" corresp="#omission"/>
+                </app>
+                l’autre
+                <app>
+                    <lem wit="#A #Be #Br">.</lem>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">Mais</lem>
+                    <rdg wit="#C" corresp="#orth">mes</rdg>
+                </app>
+                pour ce ne
+                <app>
+                    <lem wit="#Be #Br">demoura</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">demouroit</rdg>
+                        <rdg wit="#C">demora</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">mie</lem>
+                    <rdg wit="#C" corresp="#orth">mies</rdg>
+                </app>
+                que
+                <app>
+                    <lem wit="#A #Br">messire</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">monseigneur</rdg>
+                        <rdg wit="#C">messires</rdg>
+                    </rdgGrp>
+                </app>
+                <persName ref="#William">Guillaume
+                <app>
+                    <lem wit="#A #Be #Br">de</lem>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                Douglas
+                </persName>,
+                <app>
+                    <lem wit="#A #Be #Br">ce</lem>
+                    <rdg wit="#C" corresp="#orth">chils</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">vaillant</lem>
+                    <rdg wit="#C" corresp="#orth">vaillans</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">chevalier</lem>
+                    <rdg wit="#C" corresp="#orth">chevaliers</rdg>
+                </app>
+                d’<placeName ref="#Ecosse">Escoce</placeName> 
+                <app>
+                    <lem wit="#Be #Br"/>
+                    <rdg wit="#A #C" corresp="#punct">,</rdg>
+                </app>
+                et
+                <app>
+                    <lem wit="#A #Be #Br">les</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                <persName ref="#Ecossais">
+                    <app>
+                        <lem wit="#C">Escoçois</lem>
+                        <rdg wit="#A #Be #Br" corresp="#orth">Escocs</rdg>
+                    </app>
+                </persName>
+                qui se
+                <app>
+                    <lem wit="#A #Be #C">tenoient</lem>
+                    <rdg wit="#Br" corresp="#orth">tenoyent</rdg>
+                </app> 
+                en 
+                <app>
+                    <lem wit="#A #Be #Br">la</lem>
+                    <rdg wit="#C" corresp="#diff">le</rdg>
+                </app> 
+                forest de <placeName ref="#Jedforest">Gedours</placeName> 
+                <app>
+                    <lem wit="#A #C">,</lem>
+                    <rdg wit="#Be #Br" corresp="#omission"/>
+                </app> 
+                ne 
+                <app>
+                    <lem wit="#A #Be">guerroiassent</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">guerroyassent</rdg>
+                        <rdg wit="#C">guerriassent</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">tousjours</lem>
+                    <rdg wit="#C" corresp="#orth">toudis</rdg>
+                </app>
+                les <persName ref="#Anglais">
+                    <app>
+                        <lem wit="#A #Be">Anglois</lem>
+                        <rdgGrp corresp="#orth">
+                            <rdg wit="#Br">Angloys</rdg>
+                            <rdg wit="#C">Englés</rdg>
+                        </rdgGrp>
+                    </app>
+                </persName>
+                <app>
+                    <lem wit="#Br #C">partout</lem>
+                    <rdg wit="#A #Be" corresp="#orth">par tout</rdg>
+                </app>
+                ou
+                <app>
+                    <lem wit="#A #Be #Br">ilz</lem>
+                    <rdg wit="#C" corresp="#orth">il</rdg>
+                </app>
+                les
+                <app>
+                    <lem wit="#A #Be">pouoient</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">pouoyent</rdg>
+                        <rdg wit="#C">pooient</rdg>
+                    </rdgGrp>
+                </app>
+                trouver,
+                <app>
+                    <lem wit="#A #Br #C">quoyque</lem>
+                    <rdg wit="#Be" corresp="#orth">quoy que</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be">le</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                    <rdg wit="#Br" corresp="#diff">leur</rdg>
+                </app>
+                <persName ref="#Roi-ec">
+                    <app>
+                        <lem wit="#A #Be #Br">roy</lem>
+                        <rdg wit="#C" corresp="#orth">rois</rdg>
+                    </app>
+                    <placeName ref="#Ecosse">
+                        <app>
+                            <lem wit="#A #Be #C">d'Escoce</lem>
+                            <rdg wit="#Br" corresp="#omission"/>
+                        </app>
+                    </placeName>
+                </persName>
+                <app>
+                    <lem wit="#A">,</lem>
+                    <rdg wit="#Be #Br #C" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be">leur</lem>
+                    <rdg wit="#C" corresp="#orth">leurs</rdg>
+                    <rdg wit="#Br" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be">sire</lem>
+                    <rdg wit="#C" corresp="#orth">sires</rdg>
+                    <rdg wit="#Br" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A">,</lem>
+                    <rdg wit="#Be #Br #C" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#C">fust</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">feust</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be"/>
+                    <rdgGrp corresp="#add">
+                        <rdg wit="#A #C">pris</rdg>
+                        <rdg wit="#Br">prins</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be">en prison.</lem>
+                    <rdgGrp corresp="#omission #punct">
+                        <rdg wit="#A">.</rdg>
+                        <rdg wit="#C">,</rdg>
+                        <rdg wit="#Br" corresp="#omission"/>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be">Et</lem>
+                    <rdg wit="#Br #C" corresp="#orth">et</rdg>
+                </app>
+                ne
+                <app>
+                    <lem wit="#A #Be #Br">tindrent</lem>
+                    <rdg wit="#C" corresp="#orth">tinrent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">oncques</lem>
+                    <rdg wit="#C" corresp="#orth">onques</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">trieves</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">treves</rdg>
+                        <rdg wit="#C">trieuwes</rdg>
+                    </rdgGrp>
+                </app> 
+                que 
+                <app>
+                    <lem wit="#A">le <persName ref="#Roi-fr">roy de <placeName ref="#France">France</placeName></persName> et le <persName ref="#Roi-eng"> roy d’<placeName ref="#Angleterre">Angleterre</placeName></persName></lem>
+                    <rdg wit="#Be #Br" corresp="#transp">le <persName ref="#Roi-eng"> roy d’<placeName ref="#Angleterre">Angleterre</placeName></persName>ne <persName ref="#Roi-fr">roy de <placeName ref="#France">France</placeName></persName></rdg>
+                    <rdg wit="#C" corresp="#orth">li <persName ref="#Roi-fr"> rois de <placeName ref="#France">France</placeName></persName> et li <persName ref="#Roi-eng">rois d’<placeName ref="#Angleterre">Engleterre</placeName></persName></rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">eussent</lem>
+                    <rdg wit="#C" corresp="#orth">euissent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">ensemble</lem>
+                    <rdg wit="#C" corresp="#orth">ensamble</rdg>
+                </app>.
+                <app>
+                    <lem wit="#A #Br"><lb/></lem>
+                    <rdg wit="#Be #C"/>
+                </app>
+                D’autre part
+                <app>
+                    <lem wit="#A #Br #C" />
+                    <rdg wit="#Be" corresp="#punct">,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">aussi</lem>
+                    <rdg wit="#C" corresp="#orth">ossy</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">ceulx</lem>
+                    <rdg wit="#C" corresp="#diff">chil</rdg>
+                </app> 
+                qui 
+                <app>
+                    <lem wit="#A #Be #C">estoient</lem>
+                    <rdg wit="#Br" corresp="#orth">estoyent</rdg>
+                </app> 
+                en 
+                <placeName ref="#Gascogne">
+                    <app>
+                        <lem wit="#Be #Br">Gascoingne</lem>
+                        <rdg wit="#A #C" corresp="#orth">Gascongne</rdg>
+                    </app>
+                </placeName>
+                , en 
+                <placeName ref="#Poitou">
+                    <app>
+                        <lem wit="#A #Be #Br">Poitou</lem>
+                        <rdg wit="#C" corresp="#orth">Poito</rdg>
+                    </app>
+                </placeName>
+                <app>
+                    <lem wit="#Be #Br">et</lem>
+                    <rdg wit="#A #C" corresp="#punct">,</rdg>
+                </app>
+                en 
+                <placeName ref="#Saintonge">
+                    <app>
+                        <lem wit="#C">Saintonge</lem>
+                        <rdgGrp corresp="#orth">
+                            <rdg wit="#A">Xanctonge</rdg>
+                            <rdg wit="#Be">Xantonge</rdg>
+                            <rdg wit="#Br">Xanttonge</rdg>
+                        </rdgGrp>
+                    </app>
+                </placeName>
+                , tant 
+                <app>
+                    <lem wit="#Be #Br #C">des</lem>
+                    <rdg wit="#A" corresp="#orth">de</rdg>
+                </app>
+                <persName ref="#Français">
+                    <app>
+                        <lem wit="#A #Be">François</lem>
+                        <rdgGrp corresp="#orth">
+                            <rdg wit="#Br">Françoys</rdg>
+                            <rdg wit="#C">Franchois</rdg>
+                        </rdgGrp>
+                    </app>
+                </persName>
+                comme 
+                <app>
+                    <lem wit="#Be #Br #C">des</lem>
+                    <rdg wit="#A" corresp="#diff">de</rdg>
+                </app>
+                <persName ref="#Anglais">
+                    <app>
+                        <lem wit="#A #Be">Anglois,</lem>
+                        <rdgGrp corresp="#orth">
+                            <rdg wit="#Br">Angloys,</rdg>
+                            <rdg wit="#C">Englés,</rdg>
+                        </rdgGrp>
+                    </app>
+                </persName>
+                ne
+                <app>
+                    <lem wit="#A #Be #Br">tindrent</lem>
+                    <rdg wit="#C" corresp="#orth">tinrent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">oncques</lem>
+                    <rdg wit="#C" corresp="#orth">onques</rdg>
+                </app>
+                fermement
+                <app>
+                    <lem wit="#Be #C"/>
+                    <rdg wit="#A #Br" corresp="#add">ne</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">trieves</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">treves</rdg>
+                        <rdg wit="#C">trieuwe</rdg>
+                    </rdgGrp>
+                </app> 
+                ne respit qui
+                <app>
+                    <lem wit="#C">fust</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">feust</rdg>
+                </app>
+                entre
+                <app>
+                    <lem wit="#A #Be #Br">les</lem>
+                    <rdg wit="#C" corresp="#orth">lez</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">deux</lem>
+                    <rdg wit="#C" corresp="#orth">deuls</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">rois</lem>
+                    <rdg wit="#A" corresp="#orth">roys</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br">.</lem>
+                    <rdg wit="#Be #C" corresp="#punct">,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">Ains</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be #C">ains</rdg>
+                        <rdg wit="#Br">Ainçoys</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">
+                        <app>
+                            <lem wit="#A">gaingnoient</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#C">gagnoient</rdg>
+                                <rdg wit="#Br">gaingnoyent</rdg>
+                            </rdgGrp>
+                        </app> et
+                        <app>
+                            <lem wit="#A">conqueroient</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#Br">conqueroyent</rdg>
+                                <rdg wit="#C">conquerroient</rdg>
+                            </rdgGrp>
+                        </app>
+                        <app>
+                            <lem wit="#A #Br">villes</lem>
+                            <rdg wit="#C" corresp="#orth">villez</rdg>
+                        </app>
+                        et fors
+                        <app>
+                            <lem wit="#A">chasteaux</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#Br">chasteaulx</rdg>
+                                <rdg wit="#C">chastiaus</rdg>
+                            </rdgGrp>
+                        </app>
+                        <app>
+                            <lem wit="#Br #C">souvent</lem>
+                            <rdg wit="#A" corresp="#diff">et sonnent</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#Br">les uns sur les autres</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#A">les ungs sur les autres</rdg>
+                                <rdg wit="#C">li un sus l’autre</rdg>
+                            </rdgGrp>
+                        </app>
+                        <app>
+                            <lem wit="#A #C">
+                                <app>
+                                    <lem wit="#A">par force ou parpourchas ou par embler ou par escheler</lem>
+                                    <rdg wit="#C" corresp="#orth">par force ou par pourcas, par embler ou par escieller</rdg>
+                                </app>
+                            </lem>
+                            <rdg wit="#Br" corresp="#omission #orth">par embler ou par eschieller</rdg>
+                        </app>
+                        de nuit ou de jour
+                        <app>
+                            <lem wit="#Br #C">
+                                <app>
+                                    <lem wit="#C">. Et leur avenoient souvent des belles aventures,
+                                    une fois as <persName ref="#Anglais">Engléz</persName>, l’autre fois as <persName ref="#Français">Franchois</persName>,</lem>
+                                    <rdg wit="#Br" corresp="#orth #omission">et leur adventures une foys aux <persName ref="#Français">Françoys</persName> l’autre foiz aux <persName ref="#Anglais">Angloys</persName>.</rdg>
+                                </app>
+                            </lem>
+                            <rdg wit="#A"/>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#omission">couroient les uns sur les autres de nuit, de jour</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">et tousjours</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Br">Et tousjours</rdg>
+                        <rdg wit="#C">et toutdis</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A">gaingnoient</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">gaingnerent</rdg>
+                        <rdg wit="#Br">gaingnoyent</rdg>
+                        <rdg wit="#C">gaegnoient</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">povres brigans</lem>
+                    <rdg wit="#C" corresp="#orth">povre brigant</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C" />
+                    <rdg wit="#Br" corresp="#add">et desrobeurs</rdg>
+                </app>
+                <app>
+                    <lem wit="#C">a desrober et pillier</lem>
+                    <rdgGrp  corresp="#add #orth">
+                        <rdg wit="#A">a desrober, embler et pillés</rdg>
+                        <rdg wit="#Be">a pillier et embler</rdg>
+                        <rdg wit="#Br">a embler et desrober et piller</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">les villes et les</lem>
+                    <rdg wit="#Be" corresp="#diff #omission">en villes, en</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">chasteaux.</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be #Br">chasteaulx</rdg>
+                        <rdg wit="#C">chastiaus</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #C">Et</lem>
+                    <rdg wit="#Br #Be" corresp="#orth">et</rdg>
+                </app>
+                <app>
+                    <lem wit="#Br #C">y</lem>
+                    <rdg wit="#A" corresp="#diff">si</rdg>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#Be">conqueroient</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#C">conquerroient</rdg>
+                        <rdg wit="#A">conquirent</rdg>
+                        <rdg wit="#Br">conqueroyent</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be">si</lem>
+                    <rdg wit="#Br #C" corresp="#orth">sy</rdg>
+                </app>
+                grant avoir que
+                <app>
+                    <lem wit="#A #Br #C">c’estoit</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app> 
+                <app>
+                    <lem wit="#A #Be">merveilles.</lem>
+                    <rdgGrp corresp="#orth #punct">
+                        <rdg wit="#Br">merveilles</rdg>
+                        <rdg wit="#C">merveille</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be">Et devenoient</lem>
+                    <rdg wit="#Br" corresp="#orth">et devenoyent</rdg>
+                    <rdg wit="#C" corresp="#add #orth">et en devenoient</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">aucuns</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Br">les aucuns</rdg>
+                        <rdg wit="#C">li aucun</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">si riches</lem>
+                    <rdgGrp corresp="#orth #punct">
+                        <rdg wit="#A">si riches,</rdg>
+                        <rdg wit="#C">si rice.</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be">qu’ilz</lem>
+                    <rdgGrp corresp="#diff">
+                        <rdg wit="#A #Br">ceulx qui</rdg>
+                        <rdg wit="#C">Chil qui</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">se faisoient</lem>
+                    <rdg wit="#Br" corresp="#orth">ce faysoient</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">maistres</lem>
+                    <rdg wit="#C" corresp="#orth">mestre</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">et</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">cappitaines</lem>
+                    <rdg wit="#C" corresp="#orth">chapitain</rdg>
+                </app>
+                des
+                <app>
+                    <lem wit="#A #Be #Br">autres</lem>
+                    <rdg wit="#C" corresp="#orth">aultres</rdg>
+                </app>
+                brigans
+                <app>
+                    <lem wit="#A #Br #C">
+                        <app>
+                            <lem wit="#A">qu’il en y</lem>
+                            <rdg wit="#Br" corresp="#diff">que il en y</rdg>
+                            <rdg wit="#C" corresp="#diff #orth #punct">, que il en i</rdg>
+                        </app>
+                    avoit de
+                        <app>
+                            <lem wit="#C">tels</lem>
+                            <rdg wit="#A #Br" corresp="#orth">telz</rdg>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#add #omission">. Et y avoit de ces</rdg>
+                </app>
+                qui
+                <app>
+                    <lem wit="#Be">avoient</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">avoyent</rdg>
+                        <rdg wit="#A #C">avoit</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Br">bien la finance</lem>
+                    <rdg wit="#Be" corresp="#omission">la finance</rdg>
+                    <rdg wit="#C" corresp="#orth">bien le finanche</rdg>
+                </app>
+                de
+                <app>
+                    <lem wit="#Be">
+                        <abbr>LXM
+                            <expan>soixante mille</expan> <!--balise <abbr> car les chiffres romains ne sont pas correct, mais ressemblent plus a une sorte d'abreviations.-->
+                        </abbr>
+                    </lem>
+                    <!-- <note type="commentary">selon l'edition les Chroniques de Sire Jean Froissart par Jean Alexandre Buchon publiéeen 1835, mention de soixante mille escus </note> -->
+                    <rdgGrp corresp="#diff">
+                        <rdg wit="#A">cinquante mil</rdg>
+                        <rdg wit="#Br">quarante mille</rdg>
+                        <rdg wit="#C">
+                            <abbr>XL M
+                                <expan>quarante mille</expan>
+                            </abbr>
+                        </rdg>
+                    </rdgGrp>
+                </app>
+                escus.                
+                Au voir dire 
+                <app>
+                    <lem wit="#A #Br #C">et</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#C">au</lem>
+                    <rdg wit="#Be #Br" corresp="#diff">a</rdg>
+                    <rdg wit="#A" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">raconter</lem>
+                    <rdg wit="#Br" corresp="#orth">racompter</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #C">,</lem>
+                    <rdg wit="#Be #Br" corresp="#omission"/>
+                </app>
+                c’estoit
+                <app>
+                    <lem wit="#A #Br #C">grant</lem>
+                    <rdg wit="#Be" />
+                </app>
+                merveille
+                <app>
+                    <lem wit="#A #Br #C">de ce</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">qu'ilz</lem>
+                    <rdg wit="#C" corresp="#diff">que il</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be">faisoient</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">faisoyent</rdg>
+                        <rdg wit="#C">fasoient</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">:</lem>
+                    <rdg wit="#A #C" corresp="#punct">.</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">ilz</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">Ilz</rdg>
+                        <rdg wit="#C">Il</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">espioient</lem>
+                    <rdg wit="#Br" corresp="#orth">espioyent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br"/>
+                    <rdg wit="#C" corresp="#add #punct">,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">telle</lem>
+                    <rdg wit="#Be" corresp="#punct"/>
+                </app>
+                <app>
+                    <lem wit="#A #C">fois</lem>
+                    <rdg wit="#Br" corresp="#orth">foys</rdg>
+                    <rdg wit="#Be" corresp="#punct"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br"/>
+                    <rdg wit="#C" corresp="#add">estoit et bien souvent,</rdg>
+                </app>
+                une bonne ville ou 
+                <app>
+                    <lem wit="#A #Be #C">
+                        <app>
+                            <lem wit="#A #Be">ung</lem>
+                            <rdg wit="#C" corresp="#orth">
+                                <abbr>I</abbr>
+                            </rdg>
+                        </app>
+                    </lem>
+                    <rdg wit="#Br" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#Br #C">bon</lem>
+                    <rdg wit="#A" corresp="#diff">fort</rdg>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">chastel</lem>
+                    <rdg wit="#C" corresp="#orth">chastiel</rdg>
+                </app>
+                une journee ou
+                <app>
+                    <lem wit="#A #Be #Br">deux</lem>
+                    <rdg wit="#C" corresp="#orth">
+                        <abbr>II</abbr>
+                    </rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">loing</lem>
+                    <rdg wit="#A" corresp="#orth">loings</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">,</lem>
+                    <rdg wit="#C" corresp="#punct">.</rdg>
+                    <rdg wit="#A #Br" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">et</lem>
+                    <rdg wit="#C" corresp="#orth">Et</rdg>
+                </app> 
+                puis 
+                <app>
+                    <lem wit="#Be #Br"/>
+                    <rdgGrp corresp="#add #orth">
+                        <rdg wit="#A">si</rdg>
+                        <rdg wit="#C">sy</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be">s'assembloient</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">s'assembloyent</rdg>
+                        <rdg wit="#C">s'assambloient</rdg>
+                    </rdgGrp>
+                </app>
+                XX
+                <app>
+                    <lem wit="#A #Be #Br"/>
+                    <rdg wit="#C" corresp="#add">brigant</rdg>
+                </app> 
+                ou XXX
+                <app>
+                    <lem wit="#A #Be #Br">brigans</lem>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                et
+                <app>
+                    <lem wit="#A #Be">s'en aloient</lem>
+                    <rdg wit="#Br" corresp="#orth">s'en aloyent</rdg>
+                    <rdg wit="#C" corresp="#omission">en aloient</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">,</lem>
+                    <rdg wit="#A #Br #C" corresp="#omission"/>
+                </app>
+                par
+                <app>
+                    <lem wit="#A #Be #C">voies</lem>
+                    <rdg wit="#Br" corresp="#orth">voyes</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">couvertes</lem>
+                    <rdg wit="#C" corresp="#orth">couvertez</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br"/>
+                    <rdg wit="#A #C" corresp="#punct">,</rdg>
+                </app>
+                tant de 
+                <app>
+                    <lem wit="#A #Be">jour comme de nuit,</lem>
+                    <rdg wit="#Br" corresp="#orth #punct">jours comme de nuit</rdg>
+                    <rdg wit="#C" corresp="#transp">nuit que de jour,</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">qu'ilz</lem>
+                    <rdg wit="#A #C" corresp="#orth">qu'il</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">entroient</lem>
+                    <rdg wit="#Br" corresp="#orth">entroyent</rdg>
+                </app>
+                en celle ville ou
+                <app>
+                    <lem wit="#C">ce</lem>
+                    <rdg wit="#A #Be #Br" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">chastel</lem>
+                    <rdg wit="#C" corresp="#orth">chastiel</rdg>
+                </app>
+                que
+                <app>
+                    <lem wit="#Be #Br">espié</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">espie</rdg>
+                        <rdg wit="#C">espiiet</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">avoient</lem>
+                    <rdg wit="#Br" corresp="#orth">avoyent</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">,</lem>
+                    <rdg wit="#A" corresp="#punct"/>
+                </app>
+                droit
+                <app>
+                    <lem wit="#A #Be #Br">sur</lem>
+                    <rdg wit="#C" corresp="#diff">sus</rdg>
+                </app>
+                le point
+                <app>
+                    <lem wit="#A #Be #Br">du</lem>
+                    <rdg wit="#C" corresp="#diff">dou</rdg>
+                </app>
+               jour
+                <app>
+                    <lem wit="#A #Br #C"/>
+                    <rdg wit="#Be" corresp="#punct">.</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">et</lem>
+                    <rdg wit="#Be" corresp="#orth">Et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">boutoient</lem>
+                    <rdg wit="#Br" corresp="#orth">boutoyent</rdg>
+                </app>
+                le feu en une
+                <app>
+                    <lem wit="#A #Be #C">maison</lem>
+                    <rdg wit="#Br" corresp="#orth">mayson</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">
+                    ou deux
+                        <app>
+                            <lem wit="#A #Br"/>
+                            <rdg wit="#Be" corresp="#punct">,</rdg>
+                        </app>
+                    </lem>
+                    <rdg wit="#A" corresp="#diff">en</rdg>
+                </app>
+                et
+                <app>
+                    <lem wit="#A #Be #Br">ceulx</lem>
+                    <rdg wit="#C" corresp="#diff">chil</rdg>
+                </app>
+                de
+                <app>
+                    <lem wit="#A #Be #Br">la</lem>
+                    <rdg wit="#C" corresp="#diff">le</rdg>
+                </app>
+                ville
+                <app>
+                    <lem wit="#A #Be #C">cuidoient</lem>
+                    <rdg wit="#Br" corresp="#orth">cuidoyent</rdg>
+                </app>
+                que ce
+                <app>
+                    <lem wit="#A #Be #Br">feussent</lem>
+                    <rdg wit="#C" corresp="#orth">fuissent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be">mille</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">mil</rdg>
+                        <rdg wit="#C">M</rdg>
+                    </rdgGrp>
+                </app>
+                armeures de
+                <app>
+                    <lem wit="#A #Be #Br">fer</lem>
+                    <rdg wit="#C"  corresp="#diff">fier</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br"/>
+                    <rdg wit="#C"  corresp="#punct">,</rdg>
+                </app>
+                qui
+                <app>
+                    <lem wit="#A #Be #Br">voulsissent</lem>
+                    <rdg wit="#C"  corresp="#orth">vosissent</rdg>
+                </app> 
+                ardoir
+                <app>
+                    <lem wit="#A #Be #Br">la</lem>
+                    <rdg wit="#C"  corresp="#diff">leur</rdg>
+                </app>
+                ville
+                <app>
+                    <lem wit="#Be #Br">,</lem>
+                    <rdg wit="#A #C" corresp="#punct">.</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">et</lem>
+                    <rdgGrp corresp="#diff">
+                        <rdg wit="#A">Si</rdg>
+                        <rdg wit="#Br">sy</rdg>
+                        <rdg wit="#C">Sy</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">s'en</lem>
+                    <rdg wit="#C" corresp="#diff">en</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">fuioient</lem>
+                    <rdg wit="#Br" corresp="#orth">fuioyent</rdg>
+                </app>
+                <app>
+                    <lem wit="#Br">qui</lem>
+                    <rdg wit="#A #C" corresp="#diff">que</rdg>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be">mieulx</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">myeulx</rdg>
+                        <rdg wit="#C">mieux</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Br">mieulx</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">mielx</rdg>
+                        <rdg wit="#C">mieux</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">.</lem>
+                    <rdg wit="#A" corresp="#punct">,</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">Et</lem>
+                    <rdg wit="#A" corresp="#orth">et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">les</lem>
+                    <rdgGrp corresp="#diff">
+                        <rdg wit="#Be #Br">ces</rdg>
+                        <rdg wit="#C">chil</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be">brigans</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">brisgans</rdg>
+                        <rdg wit="#C">brigant</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">brisoient</lem>
+                    <rdg wit="#Br" corresp="#orth">brisoyent</rdg>
+                </app>
+                maisons, coffres et escrins
+                <app>
+                    <lem wit="#Be">,</lem>
+                    <rdg wit="#C" corresp="#punct">.</rdg>
+                    <rdg wit="#A #Br" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">et</lem>
+                    <rdg wit="#C" corresp="#orth">Et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be">prenoient</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">prenoyent</rdg>
+                        <rdg wit="#C">prendoient</rdg>
+                    </rdgGrp>
+                </app>
+                quanqu’
+                <app>
+                    <lem wit="#Be #Br">ilz</lem>
+                    <rdg wit="#A #C" corresp="#orth">il</rdg>
+                </app>
+                trouvoient
+                <app>
+                    <lem wit="#Be #Br #C">,</lem>
+                    <rdg wit="#A" corresp="#punct">.</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C"/>
+                    <rdg wit="#Be" corresp="#add">et</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">puis</lem>
+                    <rdg wit="#A" corresp="#orth">Puis</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">s'en</lem>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">aloient</lem>
+                    <rdg wit="#Br" corresp="#orth">alloyent</rdg>
+                </app>
+                leur chemin
+                <app>
+                    <lem wit="#A">,</lem>
+                    <rdg wit="#Be #Br" corresp="#omission"/>
+                    <rdg wit="#C">tout</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">chargiéz</lem>
+                    <rdg wit="#C" corresp="#orth">cargié</rdg>
+                </app>
+                de
+                <app>
+                    <lem wit="#Be">pillages.</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Br">pillaige.</rdg>
+                        <rdg wit="#C">pillage.</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">Ainsi</lem>
+                    <rdg wit="#C" corresp="#orth">Ensy</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">firent</lem>
+                    <rdg wit="#C" corresp="#orth">fisent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">ilz</lem>
+                    <rdg wit="#C" corresp="#orth">il</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">a</lem>
+                    <rdg wit="#A" corresp="#orth">adonc</rdg>
+                </app>
+                <placeName ref="#Donzenac">
+                    <app>
+                        <lem wit="#Be">Donsenach</lem>
+                        <rdgGrp corresp="#orth">
+                            <rdg wit="#A">Senok</rdg>
+                            <rdg wit="#Br">Douzenok</rdg>
+                            <rdg wit="#C">Donsenak</rdg>
+                        </rdgGrp>
+                    </app>
+                </placeName>
+                et en
+                <app>
+                    <lem wit="#A #Br">plusieurs</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">pluseurs</rdg>
+                        <rdg wit="#C">pluisseurs</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">autres</lem>
+                    <rdg wit="#C" corresp="#orth">aultres</rdg>
+                </app>
+                villes
+                <app>
+                    <lem wit="#Be">,</lem>
+                    <rdg wit="#A #Br #C" corresp="#omission"/>
+                </app>
+                et
+                <app>
+                    <lem wit="#A #Be #Br">gaingnerent</lem>
+                    <rdg wit="#C" corresp="#orth">gagnierent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">ainsi</lem>
+                    <rdg wit="#C" corresp="#orth">ensy</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br">plusieurs</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">pluseurs</rdg>
+                        <rdg wit="#C">pluisseurs</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A">chasteaux</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">chastealx</rdg>
+                        <rdg wit="#Br">chasteaulx</rdg>
+                        <rdg wit="#C">chastiaus</rdg>
+                    </rdgGrp>
+                </app>
+                et puis
+                <app>
+                    <lem wit="#A #Br">les</lem>
+                    <rdg wit="#C" corresp="#orth">lez</rdg>
+                </app>
+                <app>
+                    <lem wit="#Br #C">revendirent.</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">revendoient.</rdg>
+                        <rdg wit="#Be">revindrent.</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br"><lb/></lem>
+                    <rdg wit="#C"/>
+                </app>
+                Entre
+                <app>
+                    <lem wit="#A #Be #Br">les</lem>
+                    <rdg wit="#C" corresp="#orth">lez</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">autres</lem>
+                    <rdg wit="#C" corresp="#orth">aultres</rdg>
+                </app>
+                <app>
+                    <lem wit="#C">eut</lem>
+                    <rdgGrp corresp="#diff #orth">
+                        <rdg wit="#Be">il y ot</rdg>
+                        <rdg wit="#A">ot</rdg>
+                        <rdg wit="#Br">out</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Br">un</lem>
+                    <rdg wit="#A #Be #C" corresp="#orth">ung</rdg>
+                </app>
+                brigant en
+                <app>
+                    <lem wit="#A #Be #Br"/>
+                    <rdg wit="#C" corresp="#add">le marche de le</rdg>
+                </app>
+                <placeName ref="#Languedoc">
+                    <app>
+                        <lem wit="#A #Be #Br">Languedoc</lem>
+                        <rdg wit="#C" corresp="#orth">Langhedok</rdg>
+                    </app>
+                </placeName>
+                <app>
+                    <lem wit="#A #Be #Br"/>
+                    <rdg wit="#C" corresp="#punct">,</rdg>
+                </app>
+                qui en
+                <app>
+                    <lem wit="#A #Be #Br">telle</lem>
+                    <rdg wit="#C" corresp="#orth">tel</rdg>
+                </app>
+                maniere
+                <app>
+                    <lem wit="#Be #C">avisa</lem>
+                    <rdg wit="#A #Br" corresp="#orth">advisa</rdg>
+                </app>
+                et espia le fort
+                <app>
+                    <lem wit="#A #Be #Br">chastel</lem>
+                    <rdg wit="#C" corresp="#orth">chastiel</rdg>
+                </app>
+                de
+                <placeName ref="#Comborn">
+                    <app>
+                        <lem wit="#A #Be #Br">Combourne</lem>
+                        <rdg wit="#C" corresp="#orth">Conbourne</rdg>
+                    </app>
+                </placeName>
+                , qui
+                <app>
+                    <lem wit="#A #Be #Br">siet</lem>
+                    <rdg wit="#C" corresp="#orth">sciet</rdg>
+                </app>
+                en
+                <placeName ref="#Limousin">
+                    <app>
+                        <lem wit="#A #Be #Br">Limosin</lem>
+                        <rdg wit="#C" corresp="#orth">Limozin</rdg>
+                    </app>
+                </placeName>
+                <app>
+                    <lem wit="#C">,</lem>
+                    <rdg wit="#A #Be"  corresp="#diff">et</rdg>
+                    <rdg wit="#Br" corresp="#omission"/>
+                </app>
+                en
+                <app>
+                    <lem wit="#A #Be #C">tres</lem>
+                    <rdg wit="#Br" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">fort</lem>
+                    <rdg wit="#Br" corresp="#diff">treffort</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">païs</lem>
+                    <rdg wit="#Br" corresp="#orth">paÿs</rdg>
+                </app>
+                durement
+                <app>
+                    <lem wit="#A #Be #C">.</lem>
+                    <rdg wit="#Br" corresp="#punct">,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be">Si</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">si</rdg>
+                        <rdg wit="#C">Sy</rdg>
+                    </rdgGrp>
+                </app>
+                chevaucha
+                <app>
+                    <lem wit="#A #Be #Br">la</lem>
+                    <rdg wit="#C" corresp="#diff">de</rdg>
+                </app>
+                nuit
+                <app>
+                    <lem wit="#A #Be #Br">avecques</lem>
+                    <rdg wit="#C" corresp="#orth">avoecquez</rdg>
+                </app>
+                <app>
+                    <lem wit="#Br">trente</lem>
+                    <rdg wit="#A #Be #C" corresp="#orth">XXX</rdg>
+                </app>
+                de ses
+                <app>
+                    <lem wit="#C">compagnons</lem>
+                    <rdg wit="#A #Br #Be" corresp="#orth">compaignons</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C"/>
+                    <rdg wit="#Be" corresp="#add">,</rdg>
+                </app>
+                et
+                <app>
+                    <lem wit="#C">vinrent</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">vindrent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">a</lem>
+                    <rdg wit="#Br" corresp="#orth">ad</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">ce</lem>
+                    <rdg wit="#C" corresp="#orth">che</rdg>
+                </app>
+                fort
+                <app>
+                    <lem wit="#A #Be #Br">chastel</lem>
+                    <rdg wit="#C" corresp="#orth">chastiel</rdg>
+                </app>
+                et l’
+                <app>
+                    <lem wit="#Br">eschiellerent
+                        <note type="information">escalader</note>
+                    </lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">eschewerent</rdg>
+                        <rdg wit="#Be">eschielerent</rdg>
+                        <rdg wit="#C">esquiellerent</rdg>
+                    </rdgGrp>
+                </app>
+                et
+                <app>
+                    <lem wit="#A #Br">gaingnerent</lem>
+                    <rdg wit="#C" corresp="#add #orth">le gaegnierent</rdg>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#C">,</lem>
+                    <rdg wit="#A" corresp="#punct">.</rdg>
+                    <rdg wit="#Be #Br" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#Br #C">et</lem>
+                    <rdg wit="#A" corresp="#orth">Et</rdg>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">pristrent
+                        <note type="information">prendre</note>
+                    </lem>
+                    <rdg wit="#C" corresp="#orth">prisent</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #C">ens</lem>
+                    <rdg wit="#A #Br" corresp="#diff">dedens</rdg>
+                </app>
+                le
+                <app>
+                    <lem wit="#A #Be #Br">seigneur</lem>
+                    <rdg wit="#C" corresp="#orth #punct">signeur,</rdg>
+                </app>
+                que on appelloit le
+                <app>
+                    <lem wit="#C">visconte</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">viconte</rdg>
+                </app>
+                de
+                <placeName ref="#Comborn">
+                    <app>
+                        <lem wit="#Be #Br">Combourne</lem>
+                        <rdgGrp corresp="#orth">
+                            <rdg wit="#A">Comborne</rdg>
+                            <rdg wit="#C">Conbourne</rdg>
+                        </rdgGrp>
+                    </app>
+                </placeName>
+                <app>
+                    <lem wit="#C">,</lem>
+                    <rdg wit="#Be" corresp="#punct">.</rdg>
+                    <rdg wit="#A #Br" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">et</lem>
+                    <rdg wit="#Be" corresp="#orth">Et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">occirent</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be #Br">occistrent</rdg>
+                        <rdg wit="#C">ochirent</rdg>
+                    </rdgGrp>
+                </app>
+                toutes
+                <app>
+                    <lem wit="#Be #Br">les</lem>
+                    <rdg wit="#A" corresp="#diff">ses</rdg>
+                    <rdg wit="#C" corresp="#orth">lez</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #C">mesnies
+                        <note type="information">Maisonnée, maison de famille</note>
+                    </lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">mesgnies</rdg>
+                        <rdg wit="#Br">mesgnees</rdg>
+                    </rdgGrp>
+                </app>
+                de
+                <app>
+                    <lem wit="#A #Be #Br">leans
+                        <note type="information">Là-dedans</note>
+                    </lem>
+                    <rdg wit="#C" corresp="#orth">laiens</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">,</lem>
+                    <rdg wit="#A" corresp="#punct">.</rdg>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">et</lem>
+                    <rdg wit="#A" corresp="#orth">Et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">mistrent</lem>
+                    <rdg wit="#C" corresp="#orth">misent</rdg>
+                </app>
+                le
+                <app>
+                    <lem wit="#A #Be #Br">seigneur</lem>
+                    <rdg wit="#C" corresp="#orth">signeur</rdg>
+                </app>
+                en prison en son
+                <app>
+                    <lem wit="#A #Be #Br">chastel</lem>
+                    <rdg wit="#C" corresp="#orth">chastiel</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">mesme
+                        <note type="information">variante du latin meisme</note>
+                    </lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Br">meismes</rdg>
+                        <rdg wit="#C">meismez</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Br">,</lem>
+                    <rdg wit="#A #Be" corresp="#punct">.</rdg>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#Br #C">et</lem>
+                    <rdg wit="#A #Be" corresp="#orth">Et</rdg>
+                </app>
+                le
+                <app>
+                    <lem wit="#C">tinrent</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">tindrent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">si</lem>
+                    <rdg wit="#C" corresp="#orth">sy</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">longuement</lem>
+                    <rdg wit="#C" corresp="#orth">longement</rdg>
+                </app>
+                qu’il se
+                <app>
+                    <lem wit="#A #Be">raençonna</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">reançonna</rdg>
+                        <rdg wit="#C">ranchonna</rdg>
+                    </rdgGrp>
+                </app>
+                a
+                <app>
+                    <lem wit="#Be #Br">XXIIIIM
+                        <note type="information">vingt-quatre mille</note>
+                    </lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">XXM</rdg>
+                        <rdg wit="#C">XXIIII M</rdg>
+                    </rdgGrp>
+                </app>
+                escus tous
+                <app>
+                    <lem wit="#Br">appareilléz.</lem>
+                    <rdgGrp corresp="#orth #punct">
+                        <rdg wit="#A #Be">appareilliéz.</rdg>
+                        <rdg wit="#C">apparilliéz</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">Et</lem>
+                    <rdg wit="#Br" corresp="#orth">et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">encore</lem>
+                    <rdg wit="#Be #Br #C" corresp="#orth">encores</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be">tint</lem>
+                    <rdg wit="#Br" corresp="#add">le tint</rdg>
+                    <rdg wit="#C" corresp="#diff">detint</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">le</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">dit</lem>
+                    <rdg wit="#C" corresp="#orth">dis</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">brigant</lem>
+                    <rdg wit="#C" corresp="#orth">brigans</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C"/>
+                    <rdg wit="#Br" corresp="#add">appellé <persName ref="#Bacon">Bacon</persName></rdg>
+                </app>
+                le
+                <app>
+                    <lem wit="#A #Br #C">dit</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">chastel</lem>
+                    <rdg wit="#C" corresp="#orth">chastiel</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">
+                    et le
+                        <app>
+                            <lem wit="#C">garni</lem>
+                            <rdg wit="#A #Br" corresp="#orth">garny</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#A #C"/>
+                            <rdg wit="#Br" corresp="#add">moult</rdg>
+                        </app>
+                    bien
+                    </lem>
+                    <rdg wit="#Be" corresp="#diff #omission">bien garni</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">et</lem>
+                    <rdg wit="#C" corresp="#orth #punct">. Et</rdg>
+                </app>
+                en
+                <app>
+                    <lem wit="#A #Br">guerroya</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">guerroia</rdg>
+                        <rdg wit="#C">guerria</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C"/>
+                    <rdg wit="#Br" corresp="#add">tout</rdg>
+                </app>
+                le
+                <app>
+                    <lem wit="#A #Be #C">païs</lem>
+                    <rdg wit="#Br" corresp="#orth">paÿs</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">.</lem>
+                    <rdg wit="#Br" corresp="#punct">,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">Et</lem>
+                    <rdg wit="#Br" corresp="#orth">et</rdg>
+                </app>
+                depuis
+                <app>
+                    <lem wit="#A #Br #C">pour</lem>
+                    <rdg wit="#Be" corresp="#diff">par</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">ses</lem>
+                    <rdg wit="#C" corresp="#orth">sez</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">prouesses</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be #Br">prouesces</rdg>
+                        <rdg wit="#C">proecez</rdg>
+                    </rdgGrp>
+                </app>
+                <persName ref="#Roi-fr">
+                    <app>
+                        <lem wit="#A #Be #Br">le</lem>
+                        <rdg wit="#C" corresp="#orth">li</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#A #Be #Br">roy</lem>
+                        <rdg wit="#C" corresp="#orth">rois</rdg>
+                    </app>
+                    de <placeName ref="#France">France</placeName> 
+                </persName>
+                le
+                <app>
+                    <lem wit="#Be #C">volt</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">voult</rdg>
+                        <rdg wit="#Br">voulst</rdg>
+                    </rdgGrp>
+                </app>
+                avoir
+                <app>
+                    <lem wit="#A #Be #Br">deléz</lem>
+                    <rdg wit="#C" corresp="#orth">dalés</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #C">lui</lem>
+                    <rdg wit="#A #Br" corresp="#orth">luy</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C"/>
+                    <rdg wit="#Be" corresp="#add">. Et estoit appeléz brigant Bacon</rdg>
+                </app>
+                et
+                <app>
+                    <lem wit="#A #Be">acheta</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">achasta</rdg>
+                        <rdg wit="#C">accata</rdg>
+                    </rdgGrp>
+                </app>
+                son
+                <app>
+                    <lem wit="#A #Be #Br">chastel</lem>
+                    <rdg wit="#C" corresp="#orth">chastiel</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">XXM
+                        <note type="information">vingt mille</note>
+                    </lem>
+                    <rdg wit="#C" corresp="#orth">XX M</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">escus.</lem>
+                    <rdg wit="#Br" corresp="#orth #punct">escuz</rdg>
+                </app>                
+                <app>
+                    <lem wit="#A #C">Et</lem>
+                    <rdg wit="#Be #Br" corresp="#orth">et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">fut</lem>
+                    <rdg wit="#C" corresp="#orth">fu</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">huissier</lem>
+                    <rdg wit="#C" corresp="#orth">wisiers</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">d'armes</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#Br">du</lem>
+                    <rdg wit="#A #Be #C" corresp="#diff">au</rdg>
+                </app>
+                <persName ref="#Roi-fr">
+                roy de
+                    <placeName ref="#France">
+                        <app>
+                            <lem wit="#A #Be #Br">France</lem>
+                            <rdg wit="#C" corresp="#orth">Franche</rdg>
+                        </app>
+                    </placeName>
+                </persName>
+                et en grant honneur
+                <app>
+                    <lem wit="#A #Br #C">
+                        <app>
+                            <lem wit="#A #Br">deléz</lem>
+                            <rdg wit="#C" corresp="#orth">dalés</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#C">le</lem>
+                            <rdg wit="#A #Br" corresp="#diff">luy</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#C">roy</lem>
+                            <rdg wit="#A #Br" corresp="#omission"/>
+                        </app>
+                        <app>
+                            <lem wit="#A #Br">et</lem>
+                            <rdg wit="#C" corresp="#orth #punct">. Et</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#A #C"/>
+                            <rdg wit="#Br" corresp="#add">toujours</rdg>
+                        </app>
+                        estoit
+                        <app>
+                            <lem wit="#A">appellé</lem>
+                            <rdg wit="#C" corresp="#orth">appellés</rdg>
+                            <rdg wit="#Br" corresp="#omission"/>
+                        </app>
+                        <persName ref="#Bacon">
+                            <app>
+                                <lem wit="#A">le brigant Bacon.</lem>
+                                <rdg wit="#Br" corresp="#orth #punct #transp">Bacon ce brigant</rdg>
+                                <rdg wit="#C" corresp="#diff">chils brigans Bacons</rdg>
+                            </app>
+                        </persName>
+                        <app>
+                            <lem wit="#A">Et</lem>
+                            <rdg wit="#C" corresp="#orth">et</rdg>
+                            <rdg wit="#Br"/>
+                        </app>
+                        <app>
+                            <lem wit="#A #C">estoit</lem>
+                            <rdg wit="#Br"/>
+                        </app>
+                        <app>
+                            <lem wit="#A">tousjours</lem>
+                            <rdg wit="#C" corresp="#diff">toutdis</rdg>
+                            <rdg wit="#Br" corresp="#omission"/>
+                        </app>
+                        bien
+                        <app>
+                            <lem wit="#A #Br">monté</lem>
+                            <rdg wit="#C" corresp="#orth">montés</rdg>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                de
+                <app>
+                    <lem wit="#A">beaux</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be #Br">beaulx</rdg>
+                        <rdg wit="#C">biaus</rdg>
+                    </rdgGrp>
+                </app>
+                coursiers
+                <app>
+                    <lem wit="#A #Br">,</lem>
+                    <rdg wit="#Be #C" corresp="#diff #punct">et</rdg>
+                </app>
+                de doubles
+                <app>
+                    <lem wit="#A #Be #Br">roncins
+                        <note type="information">cheval de trait</note>
+                    </lem>
+                    <rdg wit="#C" corresp="#orth">ronchins</rdg>
+                </app>
+                et de
+                <app>
+                    <lem wit="#C">gros</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">grans</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">palefrois</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #C">pallefrois</rdg>
+                        <rdg wit="#Br">paleffroiz</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">et</lem>
+                    <rdg wit="#A" corresp="#orth #punct">. Et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">aussi</lem>
+                    <rdg wit="#C" corresp="#orth">ossy</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be">armé</lem>
+                    <rdg wit="#C" corresp="#orth">armés</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">comme</lem>
+                    <rdg wit="#C" corresp="#diff">ensy</rdg>
+                </app>
+                <app>
+                    <lem wit="#Br">un</lem>
+                    <rdg wit="#A #Be" corresp="#orth">ung</rdg>
+                    <rdg wit="#C" corresp="#diff">c’uns</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br">conte</lem>
+                    <rdg wit="#Be" corresp="#punct">conte.</rdg>
+                    <rdg wit="#C" corresp="#orth">contes</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">et</lem>
+                    <rdg wit="#Be" corresp="#orth">Et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br">vestu</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">vesqui</rdg>
+                        <rdg wit="#C">vestis</rdg>
+                    </rdgGrp>
+                </app>
+                tres richement et
+                <app>
+                    <lem wit="#A #Be #Br">demoura</lem>
+                    <rdg wit="#C" corresp="#orth">demora</rdg>
+                </app>
+                en
+                <app>
+                    <lem wit="#A #Be #Br">ce</lem>
+                    <rdg wit="#C" corresp="#orth">cel</rdg>
+                </app>
+                bon estat tant
+                <app>
+                    <lem wit="#A #Br #C">qu'il</lem>
+                    <rdg wit="#Be" corresp="#diff">comme il</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">vesqui.</lem>
+                    <rdg wit="#Be" corresp="#add #orth">pot vivre</rdg>
+                </app>
+            </p>
+
+            <p corresp="SHF-chapter" n="1-316">
+                <app>
+                    <lem wit="#A #Be #Br #C">
+                        <milestone unit="section"></milestone><lb/>
+                    </lem>
+                </app>
+                En
+                <app>
+                    <lem wit="#Be #Br">telle</lem>
+                    <rdg wit="#A" corresp="#diff">pareille</rdg>
+                    <rdg wit="#C" corresp="#orth">otelle</rdg>
+                </app>
+                maniere se
+                <app>
+                    <lem wit="#Be">tenoient</lem>
+                    <rdg wit="#A #Br #C" corresp="#diff">maintenoit on</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">en</lem>
+                    <rdg wit="#C" corresp="#diff">ou</rdg>
+                </app>
+                <app>
+                    <lem wit="#C"/>
+                    <rdg wit="#A #Be #Br">la</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">duchié 
+                        <note type="information">dûché</note>
+                    </lem> 
+                    <rdgGrp corresp="#diff #orth">
+                        <rdg wit="#Be">marche</rdg>
+                        <rdg wit="#Br">duschié</rdg>
+                        <rdg wit="#C">duchainne</rdg>
+                    </rdgGrp>
+                </app>
+                de
+                <placeName ref="#Bretagne">
+                    <app>
+                        <lem wit="#C">Bretagne</lem>
+                        <rdg wit="#A #Be #Br" corresp="#orth">Bretaigne</rdg>
+                    </app>
+                </placeName>
+                <app>
+                    <lem wit="#A #Br #C">
+                        <app>
+                            <lem wit="#A">, car</lem>
+                            <rdg wit="#Br #C" corresp="#punct">. Car</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#A #Br">si</lem>
+                            <rdg wit="#C" corresp="#orth">sy</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#C">fait</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#A">fais</rdg>
+                                <rdg wit="#Br">faiz</rdg>
+                            </rdgGrp>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#diff #omission">telz</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br">brigans</lem>
+                    <rdg wit="#Be" corresp="#punct">brigans,</rdg>
+                    <rdg wit="#C" corresp="#orth">brigant</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be">conqueroient</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">conqueroyent</rdg>
+                        <rdg wit="#C">conquerroient</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">
+                    et
+                        <app>
+                            <lem wit="#A">gaingnoient,</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#Br">gaingnoyent,</rdg>
+                                <rdg wit="#C">gaegnoient</rdg>
+                            </rdgGrp>
+                        </app>
+                    villes
+                        <app>
+                            <lem wit="#A">forteresses</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#Br">forteresces</rdg>
+                                <rdg wit="#C">fortes</rdg>
+                            </rdgGrp>
+                        </app>
+                    et bons
+                        <app>
+                            <lem wit="#A">chasteaux</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#Br">chasteaulx</rdg>
+                                <rdg wit="#C">chastiaus</rdg>
+                            </rdgGrp>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#omission #transp">chasteaulx et villes</rdg>
+                </app>
+                et
+                <app>
+                    <lem wit="#A #Br #C">les</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#Be #C">roboient
+                        <note type="commentaire">piller</note>
+                    </lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">rovoient</rdg>
+                        <rdg wit="#Br">roboyent</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">
+                        <app>
+                            <lem wit="#A">et</lem>
+                            <rdg wit="#Br #C" corresp="#diff">ou</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#A #C">tenoient</lem>
+                            <rdg wit="#Br" corresp="#orth">tenoyent</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#Br">et</lem>
+                            <rdg wit="#A #C" corresp="#orth #punct">. Et</rdg>
+                        </app>
+                        puis
+                        <app>
+                            <lem wit="#A">les</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#Br">le</rdg>
+                                <rdg wit="#C">lez</rdg>
+                            </rdgGrp>
+                        </app>
+                        <app>
+                            <lem wit="#A #C">revendoient</lem>
+                            <rdg wit="#Br" corresp="#orth">revendoyent</rdg>
+                        </app>
+                        a
+                        <app>
+                            <lem wit="#A #Br">ceulx du</lem>
+                            <rdg wit="#C" corresp="#diff #orth">chiaus dou</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#C">païs</lem>
+                            <rdg wit="#A" corresp="#punct">païs,</rdg>
+                            <rdg wit="#Br" corresp="#orth">paÿs</rdg>
+                        </app>
+                        bien et
+                        <app>
+                            <lem wit="#A">chierement.</lem>
+                            <rdg wit="#Br" corresp="#diff">richement.</rdg>
+                            <rdg wit="#C" corresp="#diff">chier.</rdg>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#omission">le païs</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">Si en</lem>
+                    <rdg wit="#Be" corresp="#diff">et</rdg>
+                    <rdg wit="#Br #C" corresp="#orth">Sy en</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">devenoient</lem>
+                    <rdg wit="#Br" corresp="#orth">devenoyent</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">les</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">aucuns</lem>
+                    <rdg wit="#C" corresp="#orth #punct">aucun,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">
+                    qui se
+                        <app>
+                            <lem wit="#A #C">faisoient</lem>
+                            <rdg wit="#Br" corresp="#orth">faysoyent</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#A">les</lem>
+                            <rdg wit="#Br #C" corresp="#omission"/>
+                        </app>
+                        <app>
+                            <lem wit="#A #Br">maistres</lem>
+                            <rdg wit="#C" corresp="#orth">mestre</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#Br">dessus</lem>
+                            <rdg wit="#C" corresp="#orth">deseure</rdg>
+                            <rdg wit="#A" corresp="#omission"/>
+                        </app>
+                        <app>
+                            <lem wit="#C">tous</lem>
+                            <rdg wit="#A #Br" corresp="#omission"/>
+                        </app>
+                        <app>
+                            <lem wit="#Br">les</lem>
+                            <rdg wit="#C" corresp="#orth">lez</rdg>
+                            <rdg wit="#A" corresp="#omission"/>
+                        </app>
+                        <app>
+                            <lem wit="#Br">autres,</lem>
+                            <rdg wit="#C" corresp="#orth">aultres,</rdg>
+                            <rdg wit="#A" corresp="#omission"/>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">si</lem>
+                    <rdg wit="#C" corresp="#orth">sy</rdg>
+                </app>
+                riches que
+                <app>
+                    <lem wit="#A #Br #C">c'estoit</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                merveilles.
+                <app>
+                    <lem wit="#A #C">Et</lem>
+                    <rdg wit="#Be" corresp="#add #diff">Entre les autres</rdg>
+                    <rdg wit="#Br" corresp="#orth">et</rdg>
+                </app>
+                en
+                <app>
+                    <lem wit="#A #Be #C">y</lem>
+                    <rdg wit ="#Br" corresp="#add">ce y</rdg>
+                </app> 
+                <app>
+                    <lem wit="#C">eult</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Be">ot</rdg>
+                        <rdg wit="#Br">out</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Br">un</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Be">ung</rdg>
+                        <rdg wit="#C">I</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">entre les</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Br">autres</lem>
+                    <rdg wit="#C" corresp="#orth #punct">aultres,</rdg>
+                    <rdg wit="#Be" corresp="#orth"/>
+                </app>
+                que on
+                <app>
+                    <lem wit="#A #Be #Br">appelloit</lem>
+                    <rdg wit="#C" corresp="#diff">clamoit</rdg>
+                </app>
+                <persName ref="#Croquard">
+                    <app>
+                        <lem wit="#Be">Croquart</lem>
+                        <rdgGrp corresp="#orth">
+                            <rdg wit="#A">Crokac</rdg>
+                            <rdg wit="#Br #C">Crokart</rdg>
+                        </rdgGrp>
+                    </app>
+                </persName>
+                , qui avoit esté
+                <app>
+                    <lem wit="#A #Br #C">
+                    en son
+                        <app>
+                            <lem wit="#A">commencement</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#Br">commancement</rdg>
+                                <rdg wit="#C">conmenchement</rdg>
+                            </rdgGrp>
+                        </app>
+                        <app>
+                            <lem wit="#Br">un</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#A">ung</rdg>
+                                <rdg wit="#C">uns</rdg>
+                            </rdgGrp>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">povre</lem>
+                    <rdg wit="#C" corresp="#orth">povres</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">garçon</lem>
+                    <rdg wit="#C" corresp="#orth">garçons</rdg>
+                </app>
+                et longtemps
+                <app>
+                    <lem wit="#A #Be">page</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">paige</rdg>
+                        <rdg wit="#C">pages</rdg>
+                    </rdgGrp>
+                </app>
+                au
+                <persName ref="#J-ark">
+                    <app>
+                        <lem wit="#A #Be #Br">seigneur</lem>
+                        <rdg wit="#C" corresp="#orth">signeur</rdg>
+                    </app>
+                    <placeName ref="#Arkel">
+                        <app>
+                            <lem wit="#Br">d'Arcles</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#A">de Ecles</rdg>
+                                <rdg wit="#Be">d'Eccles</rdg>
+                                <rdg wit="#C">d'Ercle</rdg>
+                            </rdgGrp>
+                        </app>
+                    </placeName>
+                </persName>
+                en
+                <placeName ref="#Hollande">
+                    <app>
+                        <lem wit="#A #Be #Br">Hollande.</lem>
+                        <rdg wit="#C" corresp="#orth">Hollandes.</rdg>
+                    </app>
+                </placeName>
+                <app>
+                    <lem wit="#Br"><lb/></lem>
+                    <rdg wit="#A #Be #C"/>
+                </app>
+                Quant
+                <app>
+                    <lem wit="#Be"/>
+                    <rdgGrp corresp="#add #orth">
+                        <rdg wit="#A">ce</rdg>
+                        <rdg wit="#Br">cilz</rdg>
+                        <rdg wit="#C">chils</rdg>
+                    </rdgGrp>
+                </app>
+                <persName ref="#Croquard">
+                    <app>
+                        <lem wit="#Be">il</lem>
+                        <rdgGrp corresp="#diff #orth">
+                            <rdg wit="#A">Crokac</rdg>
+                            <rdg wit="#Br #C">Crokars</rdg>
+                        </rdgGrp>
+                    </app>
+                </persName>
+                <app>
+                    <lem wit="#Be">fut</lem>
+                    <rdgGrp corresp="#diff #orth">
+                        <rdg wit="#A #Br">commença a</rdg>
+                        <rdg wit="#C">conmencha a</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be">devenu</lem>
+                    <rdg wit="#A" corresp="#diff #punct">venir,</rdg>
+                    <rdg wit="#Br #C" corresp="#orth">devenir</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">grant,</lem>
+                    <rdg wit="#C" corresp="#orth #punct">grans</rdg>
+                    <rdg wit="#A" corresp="#omission"/>
+                </app>
+                il
+                <app>
+                    <lem wit="#C">eut</lem>
+                    <rdgGrp corresp="#diff #orth">
+                        <rdg wit="#A #Be">ot</rdg>
+                        <rdg wit="#Br">out</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">congié,</lem>
+                    <rdg wit="#C" corresp="#orth">congiet,</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">et</lem>
+                    <rdgGrp corresp="#diff #orth">
+                        <rdg wit="#A #Br">si</rdg>
+                        <rdg wit="#C">sy</rdg>
+                    </rdgGrp>
+                </app>
+                s’en ala
+                <app>
+                    <lem wit="#Be">es</lem>
+                    <rdg wit="#A #C" corresp="#add">ens es</rdg>
+                    <rdg wit="#Br" corresp="#diff">aux</rdg>
+                </app>
+                guerres de 
+                <placeName ref="#Bretagne">
+                    <app>
+                        <lem wit="#C">Bretagne,</lem>
+                        <rdg wit="#A #Be #Br" corresp="#orth #punct">Bretaigne</rdg>
+                    </app>
+                </placeName>
+                et se mist
+                <app>
+                    <lem wit="#C">au</lem>
+                    <rdg wit="#A #Be #Br" corresp="#diff">ou</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">service</lem>
+                    <rdg wit="#C" corresp="#orth">servir</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">d'un</lem>
+                    <rdg wit="#C" corresp="#orth">ung</rdg>
+                </app>
+               homme d’armes.
+                <app>
+                    <lem wit="#A #Be">Si</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">si</rdg>
+                        <rdg wit="#C">Sy</rdg>
+                    </rdgGrp>
+                </app>
+                se porta
+                <app>
+                    <lem wit="#A #Be #Br">si</lem>
+                    <rdg wit="#C" corresp="#orth">sy</rdg>
+                </app>
+                bien
+                <app>
+                    <lem wit="#Be">a</lem>
+                    <rdg wit="#A #Br #C" corresp="#add">que a</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">une</lem>
+                    <rdg wit="#C" corresp="#orth">ung</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">rencontre</lem>
+                    <rdg wit="#A" corresp="#orth">rancontre</rdg>
+                </app>
+                ou
+                <app>
+                    <lem wit="#A">ilz furent,</lem>
+                    <rdg wit="#Br" corresp="#punct">ilz furent</rdg>
+                    <rdg wit="#C" corresp="#orth">il furent,</rdg>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">son</lem>
+                    <rdg wit="#C" corresp="#diff">ses</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">maistre</lem>
+                    <rdg wit="#C" corresp="#orth">mestres</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">fut</lem>
+                    <rdg wit="#C" corresp="#orth">fu</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">tué</lem>
+                    <rdg wit="#C" corresp="#orth">tués</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">,</lem>
+                    <rdg wit="#A #Br #C" corresp="#punct">.</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">que</lem>
+                    <rdgGrp corresp="#diff #orth">
+                        <rdg wit="#A #Br">Mais</rdg>
+                        <rdg wit="#C">Mes</rdg>
+                    </rdgGrp>
+                </app>
+                par
+                <app>
+                    <lem wit="#A #Be #Br">la</lem>
+                    <rdg wit="#C" corresp="#diff">le</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">prouesse</lem>
+                    <rdg wit="#Be #Br" corresp="#orth">prouesce</rdg>
+                    <rdg wit="#C" corresp="#punct">vasselage</rdg>
+                </app>
+                de
+                <app>
+                    <lem wit="#C">lui,</lem>
+                    <rdg wit="#Be #Br" corresp="#punct">lui</rdg>
+                    <rdg wit="#A" corresp="#orth">luy,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">les</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">compaignons</lem>
+                    <rdg wit="#C" corresp="#orth">compagnon</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">l'eslurent</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be #Br">l'esleurent</rdg>
+                        <rdg wit="#C">le eslisirent</rdg>
+                    </rdgGrp>
+                </app>
+                a estre
+                <app>
+                    <lem wit="#A #Be #Br">cappitaine</lem>
+                    <rdg wit="#C" corresp="#orth">chapitainne</rdg>
+                </app>
+                ou lieu de son
+                <app>
+                    <lem wit="#A #Br">maistre</lem>
+                    <rdg wit="#Be" corresp="#punct">maistre.</rdg>
+                    <rdg wit="#C" corresp="#orth #punct">mestre,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">et y</lem>
+                    <rdg wit="#Be" corresp="#orth">Et y</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">demoura</lem>
+                    <rdg wit="#C" corresp="#orth #punct">demora.</rdg>
+                </app>
+                <app>
+                    <lem wit="#C">. Depuis</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">depuis</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">un</lem> 
+                    <rdg wit="#A" corresp="#orth">ung</rdg>
+                    <rdg wit="#C" corresp="#diff">en bien</rdg>
+                </app>
+                <app>
+                    <lem wit="#C">peu</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">pou</rdg>
+                </app>
+                de
+                <app>
+                    <lem wit="#A #Be">temps,</lem>
+                    <rdg wit="#Br" corresp="#punct">temps.</rdg>
+                    <rdg wit="#C" corresp="#punct">temps</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">il</lem>
+                    <rdg wit="#Be #C" corresp="#diff">et</rdg>
+                    <rdg wit="#Br" corresp="#orth">Il</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">
+                        <app>
+                            <lem wit="#Br">gaingna</lem>
+                            <rdgGrp corresp="#orth">
+                                <rdg wit="#A">gaigna</rdg>
+                                <rdg wit="#C">gaegna</rdg>
+                            </rdgGrp>
+                        </app>
+                    tant
+                        <app>
+                            <lem wit="#A">qu'il</lem>
+                            <rdg wit="#Br #C" corresp="#diff #punct">,</rdg>
+                        </app>
+                    acquist et
+                        <app>
+                            <lem wit="#A #Br">prouffita</lem>
+                            <rdg wit="#C" corresp="#orth">pourfitta</rdg>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#omission #transp">acquist grant avoir</rdg>
+                </app>
+                par
+                <app>
+                    <lem wit="#A">rançons,</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be #C">raençons,</rdg>
+                        <rdg wit="#Br">reançons,</rdg>
+                    </rdgGrp>
+                </app>
+                par
+                <app>
+                    <lem wit="#A #Br #C">prises</lem>
+                    <rdg wit="#Be" corresp="#orth">prinses</rdg>
+                </app>
+                de villes et
+                <app>
+                    <lem wit="#A">de chasteaux</lem>
+                    <rdg wit="#C" corresp="#orth">de chastiaus</rdg>
+                    <rdg wit="#Be #Br" corresp="#add #orth #punct">chasteaulx,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">
+                        <app>
+                            <lem wit="#A #Br">qu'il</lem>
+                            <rdg wit="#C" corresp="#orth">que il</rdg>
+                        </app>
+                    devint
+                        <app>
+                            <lem wit="#A #Br">si</lem>
+                            <rdg wit="#C" corresp="#orth">sy</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#A #C">riche</lem>
+                            <rdg wit="#Br" corresp="#orth">riches</rdg>
+                        </app>
+                    que on
+                        <app>
+                            <lem wit="#Br #C">disoit</lem>
+                            <rdg wit="#A" corresp="#orth">deisois</rdg>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#add #omission">et tant que l'en disoit</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">qu'</lem>
+                    <rdg wit="#A #Br #C" corresp="#orth">que</rdg>
+                </app>
+                il avoit
+                <app>
+                    <lem wit="#A #Br #C">bien</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">la</lem>
+                    <rdg wit="#C" corresp="#diff">le</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">finance</lem>
+                    <rdg wit="#C" corresp="#diff">fin</rdg>
+                </app>
+                de
+                <app>
+                    <lem wit="#A">soixante mil</lem>
+                    <rdg wit="#Be #Br" corresp="#orth">LXM</rdg>
+                    <rdg wit="#C" corresp="#orth">LX M</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">escus,</lem>
+                    <rdg wit="#Br" corresp="#orth #punct">escuz</rdg>
+                </app>
+                sans
+                <app>
+                    <lem wit="#A #Be #C">les</lem>
+                    <rdg wit="#Br" corresp="#orth">ses</rdg>
+                </app>
+                <app>
+                    <lem wit="#A">chevaulx,</lem>
+                    <rdg wit="#Be #Br" corresp="#punct">chevaulx</rdg>
+                    <rdg wit="#C" corresp="#orth">chevaus,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">
+                    dont il
+                        <app>
+                            <lem wit="#Br #C"/>
+                            <rdg wit="#A" corresp="#add">y</rdg>
+                        </app>
+                    avoit bien
+                        <app>
+                            <lem wit="#A #Br">en</lem>
+                            <rdg wit="#C" corresp="#diff">sus</rdg>
+                        </app>
+                    son estable XX ou XXX 
+                        <app>
+                            <lem wit="#C">bons</lem>
+                            <rdg wit="#A #Br" corresp="#omission"/>
+                        </app>
+                        <app>
+                            <lem wit="#A #Br">coursiers</lem>
+                            <rdg wit="#Br" corresp="#punct">coursiers,</rdg>
+                            <rdg wit="#C" corresp="#orth">coursieres</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#C"/>
+                            <rdg wit="#A #Br" corresp="#add">et bons</rdg>
+                        </app>
+                    et
+                        <app>
+                            <lem wit="#A #Br">doubles</lem>
+                            <rdg wit="#C" corresp="#add">doublez</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#A #Br">roncins.</lem>
+                            <rdg wit="#C" corresp="#add">ronchins.</rdg>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#omission #transp">et coursiers dont il avoit bien XX ou XXX.</rdg>
+                </app>
+                Et
+                <app>
+                    <lem wit="#Be">avec</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Br">avecques</rdg>
+                        <rdg wit="#C">avoecquez</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">ce</lem>
+                    <rdg wit="#A" corresp="#punct">ce,</rdg>
+                    <rdg wit="#C" corresp="#orth">che</rdg>
+                </app>
+                il avoit le
+                <app>
+                    <lem wit="#A #Be #C">nom</lem>
+                    <rdg wit="#Br" corresp="#orth">non</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">d'</lem>
+                    <rdg wit="#C" corresp="#orth">de</rdg>
+                </app>
+                estre
+                <app>
+                    <lem wit="#A #Be #Br">le</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                plus
+                <app>
+                    <lem wit="#A #Be #Br">appert</lem>
+                    <rdg wit="#C" corresp="#orth">appers</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br">homme</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be" >hommes</rdg>
+                        <rdg wit="#C">hommez</rdg>
+                    </rdgGrp>
+                </app>
+                d’armes
+                <app>
+                    <lem wit="#Be #Br #C">qui</lem>
+                    <rdg wit="#A" corresp="#orth">qu'il</rdg>
+                </app>
+                <app>
+                    <lem wit="#C">fust</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">feust</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br"/>
+                    <rdg wit="#C" corresp="#add">ens</rdg>
+                </app>
+                ou
+                <app>
+                    <lem wit="#C">païs.</lem>
+                    <rdgGrp corresp="#orth #punct">
+                        <rdg wit="#Be">païs,</rdg>
+                        <rdg wit="#A">païs</rdg>
+                        <rdg wit="#Br">paÿs,</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#C">Et</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">et</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">fut</lem>
+                    <rdg wit="#C" corresp="#orth">fu</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">esleu</lem>
+                    <rdg wit="#C" corresp="#orth">esleus</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">pour</lem>
+                    <rdg wit="#Be" corresp="#add">a</rdg>
+                </app>
+                estre
+                <app>
+                    <lem wit="#C">a</lem>
+                    <rdgGrp corresp="#diff">
+                        <rdg wit="#A">en</rdg>
+                        <rdg wit="#Be #Br">de</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">la</lem>
+                    <rdg wit="#C" corresp="#diff">le</rdg>
+                </app>
+                Bataille des
+                <app>
+                    <lem wit="#A #Br #C">XXX 
+                        <note type="#Trente">La bataille des Trentes se déroula en 1357 durant la guerre de succession de Bretagne. 
+                            Elle opposa trente partisans de Charles de Blois contre trente partisans de Jean de Montfort..</note>
+                    </lem> 
+                    <rdg wit="#Be" corresp="#add #orth">Trente contre XXX</rdg>
+                </app>
+                et
+                <app>
+                    <lem wit="#A #Be #Br">fut</lem>
+                    <rdg wit="#C" corresp="#orth">fu</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br">tout</lem>
+                    <rdg wit="#C" corresp="#orth">tous</rdg>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">le</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">meilleur</lem>
+                    <rdg wit="#C" corresp="#diff">mendres</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">combatant</lem>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">
+                    de son
+                        <app>
+                            <lem wit="#C">costé,</lem>
+                            <rdg wit="#A" corresp="#punct">costé</rdg>
+                            <rdg wit="#Br" corresp="#orth #punct">cousté</rdg>
+                        </app>
+                    </lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                de
+                <app>
+                    <lem wit="#A #Be #Br">la</lem>
+                    <rdg wit="#C" corresp="#diff">le</rdg>
+                </app>
+                partie des
+                <persName ref="#Anglais">
+                    <app>
+                        <lem wit="#A #Be">Anglois,</lem>
+                        <rdg wit="#Br" corresp="#orth">Angloys,</rdg>
+                        <rdg wit="#C" corresp="#orth">Engléz,</rdg>
+                    </app>
+                </persName>
+                ou il
+                <app>
+                    <lem wit="#A #Br #C">acquist</lem>
+                    <rdg wit="#Be" corresp="#diff">conquist</rdg>
+                </app>
+                grant
+                <app>
+                    <lem wit="#A #Be">grace.</lem>
+                    <rdg wit="#Br" corresp="#punct">grace</rdg>
+                    <rdg wit="#C" corresp="#orth">grasce.</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">Et</lem>
+                    <rdg wit="#Br" corresp="#orth">et</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">lui</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Br">luy</rdg>
+                        <rdg wit="#C">ly</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">fut</lem>
+                    <rdg wit="#C" corresp="#orth">fu</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">promis</lem>
+                    <rdg wit="#C" corresp="#orth">proumis</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">du</lem>
+                    <rdg wit="#C" corresp="#orth">dou</rdg>
+                </app>
+                roy de
+                <placeName ref="#France">
+                    <app>
+                        <lem wit="#A #Be #Br">France</lem>
+                        <rdg wit="#C" corresp="#orth">Franche</rdg>
+                    </app>
+                </placeName>
+                <app>
+                    <lem wit="#Be #C">que,</lem>
+                    <rdg wit="#A" corresp="#diff">quel</rdg>
+                    <rdg wit="#Br" corresp="#punct">que</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">s'</lem>
+                    <rdg wit="#A #C" corresp="#diff">se</rdg>
+                </app>
+                il
+                <app>
+                    <lem wit="#A #Be #Br">vouloit</lem>
+                    <rdg wit="#C" corresp="#orth">voloit</rdg>
+                </app>
+                devenir
+                <persName ref="#Français">
+                    <app>
+                        <lem wit="#A">François,</lem>
+                        <rdgGrp corresp="#orth">
+                            <rdg wit="#Be">françois,</rdg>
+                            <rdg wit="#Br">françoys,</rdg>
+                            <rdg wit="#C">franchois,</rdg>
+                        </rdgGrp>
+                    </app>
+                </persName>
+                <app>
+                    <lem wit="#A #Be #Br">le</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">roy</lem>
+                    <rdg wit="#C" corresp="#orth">rois</rdg>
+                </app>
+                le feroit
+                <app>
+                    <lem wit="#Be #Br">chevalier</lem>
+                    <rdg wit="#A" corresp="#punct">chevalier.</rdg>
+                    <rdg wit="#C" corresp="#orth">chevaliers</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">et</lem>
+                    <rdg wit="#A"  corresp="#orth">Et</rdg>
+                </app>
+                le
+                <app>
+                    <lem wit="#A #Be #Br">marieroit</lem>
+                    <rdg wit="#C" corresp="#orth">mariroit</rdg>
+                </app>
+                bien et 
+                <app>
+                    <lem wit="#Be">richement,</lem>
+                    <rdgGrp corresp="#punct">
+                        <rdg wit="#A">richement.</rdg>
+                        <rdg wit="#Br #C">richement</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">et</lem>
+                    <rdg wit="#A" corresp="#orth">Et</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">lui</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                    <rdg wit="#A" corresp="#omission"/>
+                </app>
+                donroit
+                <app>
+                    <lem wit="#Br">deux mille</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Be">IIM</rdg>
+                        <rdg wit="#C">II M</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">livres</lem>
+                    <rdg wit="#C" corresp="#orth">livrees</rdg>
+                </app>
+                de
+                <app>
+                    <lem wit="#A #Be #Br">revenue</lem>
+                    <rdg wit="#C" corresp="#orth">revenuez</rdg>
+                </app>
+                par an
+                <app>
+                    <lem wit="#Be #Br">,</lem>
+                    <rdg wit="#A #C" corresp="#punct">.</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">mais</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">Mais</rdg>
+                        <rdg wit="#C">Mes</rdg>
+                    </rdgGrp>
+                </app>
+                il
+                <app>
+                    <lem wit="#C">n'en</lem>
+                    <rdg wit="#A #Be #Br" corresp="#diff">ne le</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #C">volt</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">voult</rdg>
+                        <rdg wit="#Br">voulst</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C"/>
+                    <rdg wit="#Be" corresp="#add">oncques</rdg>
+                </app>
+                <app>
+                    <lem wit="#C"/>
+                    <rdg wit="#A #Be #Br" corresp="#add">accorder</rdg>
+                </app>
+                <app>
+                    <lem wit="#C #Be"/>
+                    <rdg wit="#A #Br" corresp="#add">ne en</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br #C">riens faire,</lem>
+                    <rdg wit="#Be" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#Br #C">et</lem>
+                    <rdg wit="#A #Be" corresp="#orth">Et</rdg>
+                </app>
+                depuis
+                <app>
+                    <lem wit="#A #Br">luy</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">leui</rdg>
+                        <rdg wit="#C">li</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Br">meschey</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be">mescheit</rdg>
+                        <rdg wit="#C">meschei</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be #C">il,
+                        <note type="information">il lui arriva malheur</note>
+                    </lem>
+                    <rdg wit="#A #Br">il</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">ainsi</lem>
+                    <rdg wit="#C" corresp="#orth">ensi</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">que je</lem>
+                    <rdg wit="#Br" corresp="#diff">comme</rdg>
+                </app>
+                vous diray.
+                <app>
+                    <lem wit="#A #Br #C"/>
+                    <rdg wit="#Be #C"><milestone unit="section"></milestone><lb/></rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Br">Ce</lem>
+                    <rdgGrp corresp="#diff">
+                        <rdg wit="#Be">Il</rdg>
+                        <rdg wit="#C">Chils</rdg>
+                    </rdgGrp>
+                </app>
+                <persName ref="#Croquard">
+                    <app>
+                        <lem wit="#Br">Crokart</lem>
+                        <rdgGrp corresp="#omission #orth">
+                            <rdg wit="#A">Crokac</rdg>
+                            <rdg wit="#C">Crokars</rdg>
+                            <rdg wit="#Be"/>
+                        </rdgGrp>
+                    </app>
+                </persName>
+                <app>
+                    <lem wit="#A #C">chevauchoit</lem>
+                    <rdg wit="#Be #Br" corresp="#orth">chevachoit</rdg>
+                </app>
+                une
+                <app>
+                    <lem wit="#A #Be #C">fois</lem>
+                    <rdg wit="#Br" corresp="#orth">foiz</rdg>
+                </app>
+                <app>
+                    <lem wit="#Br">un</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">une</rdg>
+                        <rdg wit="#Be">ung</rdg>
+                        <rdg wit="#C">I</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">jeune</lem>
+                    <rdg wit="#C" corresp="#orth">jone</rdg>
+                </app>
+                <app>
+                    <lem wit="#C #Be #Br"/>
+                    <rdg wit="#A" corresp="#add">beste appellé</rdg>
+                </app>
+                coursier fort
+                 <app>
+                    <lem wit="#Be #Br">embridé</lem>
+                    <rdg wit="#A" corresp="#punct">embridé,</rdg>
+                    <rdg wit="#C" corresp="#orth #punct">enbridé,</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">qu'</lem>
+                    <rdg wit="#C" corresp="#orth">que</rdg>
+                </app>
+                il avoit
+                <app>
+                    <lem wit="#A #Be">acheté</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">achaté</rdg>
+                        <rdg wit="#C">accaté</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Br">trois cens</lem>
+                    <rdgGrp corresp="#diff #orth">
+                        <rdg wit="#A">trois mille</rdg>
+                        <rdg wit="#Be">IIIC</rdg>
+                        <rdg wit="#C">CCC</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be #C">escus,</lem>
+                    <rdg wit="#A" corresp="#punct">escus.</rdg>
+                    <rdg wit="#Br" corresp="#orth">escuz</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">et</lem>
+                    <rdg wit="#A" corresp="#orth">Et</rdg>
+                </app>
+                <app>
+                    <lem wit="#C">l'esprouvoit</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Be">l'esprouva</rdg>
+                        <rdg wit="#Br">l'esperonna</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#C">au</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">a</rdg>
+                </app>
+                courir.
+                <app>
+                    <lem wit="#A">Si</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be #Br">si</rdg>
+                        <rdg wit="#C">Sy</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#Be #Br">l'eschauffa</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">l'eschaufa</rdg>
+                        <rdg wit="#C">l'escaufa</rdg>
+                    </rdgGrp>
+                </app>
+                tellement, que
+                <app>
+                    <lem wit="#A #Be #Br">le</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                coursier oultre sa
+                <app>
+                    <lem wit="#A #Be #Br">voulenté</lem>
+                    <rdg wit="#C" corresp="#orth">volenté</rdg>
+                </app>
+                l’emporta,
+                <app>
+                    <lem wit="#A">si que</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Be #Br">siques</rdg>
+                        <rdg wit="#C">Syques</rdg>
+                    </rdgGrp>
+                </app>
+                au
+                <app>
+                    <lem wit="#A #Be #Br">saillir</lem>
+                    <rdg wit="#C" corresp="#orth">sallir</rdg>
+                </app>
+                <app>
+                    <lem wit="#Br">un</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">une</rdg>
+                        <rdg wit="#Be">ung</rdg>
+                        <rdg wit="#C">I</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be">fossé,</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#Br">fosse</rdg>
+                        <rdg wit="#C">fosset</rdg>
+                    </rdgGrp>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">le</lem>
+                    <rdg wit="#C" corresp="#orth">li</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">coursier</lem>
+                    <rdg wit="#C" corresp="#orth">coursiers</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">trebucha</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A">tresbuscha</rdg>
+                        <rdg wit="#Br">trebuscha</rdg>
+                        <rdg wit="#C">tresbucha</rdg>
+                    </rdgGrp>
+                </app>
+                et
+                <app>
+                    <lem wit="#C">rompi</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">rompy</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be">le col</lem>
+                    <rdg wit="#A #Br #C" corresp="#omission"/>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">a</lem>
+                    <rdg wit="#C" corresp="#omission"/>
+                </app>
+                son
+                <app>
+                    <lem wit="#A #Be #Br">maistre.</lem>
+                    <rdg wit="#C" corresp="#orth">mestre</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be"/>
+                    <rdg wit="#A #Br #C" corresp="#add">le col.</rdg>
+                </app>
+                <app>
+                    <lem wit="#Be #Br #C">Je ne</lem>
+                    <rdg wit="#A" corresp="#transp">Ne je</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #C">sçay</lem>
+                    <rdg wit="#Br">
+                        <add>
+                            <del rend="erase">sça</del>
+                            <add>sçay</add>
+                        </add>
+                    </rdg>
+                </app> 
+                que
+                <app>
+                    <lem wit="#A #Be #Br">son</lem>
+                    <rdg wit="#C" corresp="#orth">ses</rdg>
+                </app>
+                <app>
+                    <lem wit="#A #Be #Br">avoir</lem>
+                    <rdg wit="#C" corresp="#orth">avoirs</rdg>
+                </app>
+                devint
+                <app>
+                    <lem wit="#A #Be #Br"/>
+                    <rdg wit="#C" corresp="#add">mais,</rdg>
+                </app>
+                ne qui
+                <app>
+                    <lem wit="#C">eut</lem>
+                    <rdg wit="#A #Be #Br" corresp="#orth">ot</rdg>
+                </app>
+                <app>
+                    <lem wit="#Br #C">ame,</lem>
+                    <rdg wit="#A" corresp="#diff #punct">anie.</rdg>
+                    <rdg wit="#Be" corresp="#punct">ame</rdg>
+                </app>
+                <app>
+                    <lem wit="#Br">mais</lem>
+                    <rdgGrp corresp="#orth">
+                        <rdg wit="#A #Be">Mais</rdg>
+                        <rdg wit="#C">mes</rdg>
+                    </rdgGrp>
+                </app>
+                je sçay bien que
+                <persName ref="#Croquard">
+                    <app>
+                        <lem wit="#Be #Br">Croquart</lem>
+                        <rdgGrp corresp="#orth">
+                            <rdg wit="#A">Crokac</rdg>
+                            <rdg wit="#C">Crokars</rdg>
+                        </rdgGrp>
+                    </app>
+                </persName>
+                fina
+                <app>
+                    <lem wit="#A #Be #Br">ainsi.</lem>
+                    <rdg wit="#C" corresp="#orth">ensy.</rdg>
+                </app>
+            </p>
+        </body>
+    </text>
+</TEI>
