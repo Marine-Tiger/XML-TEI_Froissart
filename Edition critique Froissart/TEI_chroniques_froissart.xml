@@ -12,8 +12,7 @@
                 
             </titleStmt>
             <publicationStmt>
-                <p> Edition encodée par Marine Tiger, d'après <ref
-                        target="https://www.dhi.ac.uk/onlinefroissart">Online Froissart</ref>.</p>
+                <p> Edition encodée dans le cadre du master TNAH à l'Ecole Nationale des Chartes.</p>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
@@ -153,10 +152,10 @@
                                  <supportDesc>
                                   <support>Parchemin</support>
                                   <extent>282 pages
-                                  <dimensions unit="mm">
-                                    <height>370</height>
-                                    <width>265</width>
-                                   </dimensions>
+                                      <dimensions unit="mm">
+                                          <height>370</height>
+                                          <width>265</width>
+                                      </dimensions>
                                   </extent>
                                  </supportDesc>
                                  <layoutDesc>
@@ -164,7 +163,7 @@
                                 </layoutDesc>
                                 </objectDesc>
                                 <handDesc>
-                                    <p>Ecrit par trois mains du 15eme siècle</p>
+                                    <p>Ecrit par trois mains du 15ème siècle</p>
                                    </handDesc>
                                </physDesc>
                                <history>
@@ -209,58 +208,23 @@
                         <persName xml:lang="frm">Françoys</persName>
                     </person>
                     <person xml:id="J-ark">
-                        <persName type="information">
-                            <forename>Jean</forename>
-                            <addName>IV</addName>
-                            <nameLink>d'</nameLink>
-                            <surname>Arkel</surname>
-                        </persName>
-                        <persName type="in-text">
-                            <app>
-                                <lem wit="#A #Be #Br"><roleName type="nobility">seigneur</roleName></lem>
-                                <rdg wit="#C" corresp="#orth"><roleName type="nobility">signeur</roleName></rdg>
-                            </app>
-                            <app>
-                                <lem wit="#Br">d'Arcles</lem>
-                                <rdgGrp corresp="#orth">
-                                    <rdg wit="#A">de Ecles</rdg>
-                                    <rdg wit="#Be">d'Eccles</rdg>
-                                    <rdg wit="#C">d'Ercle</rdg>
-                                </rdgGrp>
-                            </app>
-                        </persName>
+                        <persName xml:lang="frm">seigneur d'Arcles</persName>
+                        <persName xml:lang="frm">seigneur de Ecles</persName>
+                        <persName xml:lang="frm">seigneur d'Eccles</persName>
+                        <persName xml:lang="frm">signeur d'Ercles</persName>
+                        <note type="information">Jean IV d' Arkel</note>
                     </person>
                     <person xml:id="Roi-ec">
-                        <persName type="information">
-                            <forename>David</forename>
-                            <addName>II</addName>
-                        </persName>
+                        <persName xml:lang="frm">roy d'Escoce</persName>
+                        <note type="information">David II</note>
                     </person>
                     <person xml:id="Roi-fr">
-                        <persName type="information">
-                            <forename>Philippe</forename>
-                            <addName>VI</addName>
-                            <nameLink>de</nameLink>
-                            <surname>Valois</surname>
-                        </persName>
-                        <persName type="in-text">
-                            <app>
-                                <lem wit="#A #Br #Be"><roleName>roy</roleName> de France</lem>
-                                <rdg wit="#C" corresp="#orth"><roleName>roys</roleName> de France</rdg>
-                            </app>
-                        </persName>
+                        <persName xml:lang="frm">roy de France</persName>
+                        <note type="information">Philippe VI de Valois</note>
                     </person>
                     <person xml:id="Roi-eng">
-                        <persName type="information">
-                            <forename>Edward</forename>
-                            <addName>III</addName>
-                        </persName>
-                        <persName type="in-text">
-                            <app>
-                                <lem wit="#A #Br #Be"><roleName type="nobility">roy</roleName> d'Angleterre</lem>
-                                <rdg wit="#C" corresp="#orth"><roleName type="nobility">roys</roleName> d'Engleterre</rdg>
-                            </app>
-                        </persName>
+                        <persName xml:lang="frm">roy d'Angleterre</persName>
+                        <note type="information">Edward III</note>
                     </person>
                     <person xml:id="William">
                         <persName xml:lang="frm">Guillaume Douglas</persName>
@@ -361,7 +325,7 @@
                     <item xml:id="omission">mot ou phrase manquante</item>
                     <item xml:id="orth">variation orthographique</item>
                     <item xml:id="punct">ponctuation différente</item>
-                    <item xml:id="transp">transposition: ordre des mots, phrases voire paragraphes est changé</item>
+                    <item xml:id="transp">transposition, c'est-à-dire l'ordre des mots, phrases voire paragraphes est changé</item>
                 </list>
             </p>
         </encodingDesc>
@@ -369,7 +333,7 @@
     </teiHeader>
     <text>
         <body>
-            <head>
+            <p rend="ss_titre">
             Comment <persName ref="#Bacon">Bacon</persName> le 
                 <app>
                     <lem wit="#Be #Br">Brigant</lem>
@@ -378,7 +342,7 @@
                 </app> 
                 gaingna le fort chastel de
                 <placeName ref="#Comborn">
-                    <app>
+                    <app> 
                         <lem wit="#Br">Comborne</lem>
                         <rdg wit="#A #Be" corresp="#orth">Combourne</rdg>
                         <rdg wit="#C" corresp="#omission"/>
@@ -432,7 +396,7 @@
                     <rdg wit="#Br #C"  corresp="#omission"/>
                 </app>
                 <placeName ref="#France">France</placeName>.
-            </head>
+            </p>
 
             <p corresp="SHF-chapter" n="1-315">
                 <app>
